@@ -1,0 +1,7199 @@
+{
+  "001": [
+    {
+      "codigo": "00",
+      "descripcion": "Modo prueba"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "Modo producción"
+    }
+  ],
+  "002": [
+    {
+      "codigo": "01",
+      "descripcion": "Factura"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Comprobante de crédito fiscal"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Nota de remisión"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "Nota de crédito"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "Nota de débito"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "Comprobante de retención"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "Comprobante de liquidación"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "Documento contable de liquidación"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "Facturas de exportación"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "Factura de sujeto excluido"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "Comprobante de donación"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "Evento de Operaciones Especiales"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "Evento de Retorno"
+    }
+  ],
+  "003": [
+    {
+      "codigo": "01",
+      "descripcion": "Modelo Facturación previo"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Modelo Facturación diferido"
+    }
+  ],
+  "004": [
+    {
+      "codigo": "01",
+      "descripcion": "Transmisión normal"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Transmisión por contingencia"
+    }
+  ],
+  "005": [
+    {
+      "codigo": "01",
+      "descripcion": "No disponibilidad de sistema del MH"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "No disponibilidad de sistema del emisor"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Falla en el suministro de servicio de Internet del Emisor"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Falla en el suministro de servicio de energía eléctrica del emisor que impida la transmisión de los DTE"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "Otro (deberá digitar un máximo de 500 caracteres explicando el motivo)"
+    }
+  ],
+  "006": [
+    {
+      "codigo": "22",
+      "descripcion": "Retención IVA 1%"
+    }
+  ],
+  "007": [
+    {
+      "codigo": "01",
+      "descripcion": "Físico"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Electrónico"
+    }
+  ],
+  "008": [
+    {
+      "codigo": "00",
+      "descripcion": "Otro (Para extranjeros)"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "AHUACHAPÁN"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "APANECA"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "ATIQUIZAYA"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CONCEPCIÓN DE ATACO"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL REFUGIO"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "GUAYMANGO"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "JUJUTLA"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN FRANCISCO MENÉNDEZ"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN LORENZO"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN PEDRO PUXTLA"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "TACUBA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "TURÍN"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CANDELARIA DE LA FRONTERA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "COATEPEQUE"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CHALCHUAPA"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "EL CONGO"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL PORVENIR"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "MASAHUAT"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "METAPÁN"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN ANTONIO PAJONAL"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN SEBASTIÁN SALITRILLO"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SANTA ANA"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "STA ROSA GUACHI"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "STGO D LA FRONT"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "TEXISTEPEQUE"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ACAJUTLA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "ARMENIA"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CALUCO"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CUISNAHUAT"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "STA I ISHUATAN"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "IZALCO"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "JUAYÚA"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "NAHUIZALCO"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "NAHULINGO"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SALCOATITÁN"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SAN ANTONIO DEL MONTE"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN JULIÁN"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "STA C MASAHUAT"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SANTO DOMINGO GUZMÁN"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SONSONATE"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SONZACATE"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "AGUA CALIENTE"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "ARCATAO"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "AZACUALPA"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CITALÁ"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "COMALAPA"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "CONCEPCIÓN QUEZALTEPEQUE"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "CHALATENANGO"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "DULCE NOM MARÍA"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "EL CARRIZAL"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "EL PARAÍSO"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "LA LAGUNA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "LA PALMA"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "LA REINA"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "LAS VUELTAS"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "NOMBRE DE JESUS"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "NVA CONCEPCIÓN"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "NUEVA TRINIDAD"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "OJOS DE AGUA"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "POTONICO"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SAN ANT LA CRUZ"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN ANT RANCHOS"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SAN FERNANDO"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SAN FRANCISCO LEMPA"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "SAN FRANCISCO MORAZÁN"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "SAN IGNACIO"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "SAN I LABRADOR"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "SAN J CANCASQUE"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "SAN JOSE FLORES"
+    },
+    {
+      "codigo": "29",
+      "descripcion": "SAN LUIS CARMEN"
+    },
+    {
+      "codigo": "30",
+      "descripcion": "SN MIG MERCEDES"
+    },
+    {
+      "codigo": "31",
+      "descripcion": "SAN RAFAEL"
+    },
+    {
+      "codigo": "32",
+      "descripcion": "SANTA RITA"
+    },
+    {
+      "codigo": "33",
+      "descripcion": "TEJUTLA"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ANTGO CUSCATLÁN"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "CIUDAD ARCE"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "COLON"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "COMASAGUA"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "CHILTIUPAN"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "HUIZÚCAR"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "JAYAQUE"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "JICALAPA"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "LA LIBERTAD"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "NUEVO CUSCATLÁN"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SANTA TECLA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "QUEZALTEPEQUE"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SACACOYO"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SN J VILLANUEVA"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN JUAN OPICO"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SAN MATÍAS"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN P TACACHICO"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "TAMANIQUE"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "TALNIQUE"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "TEOTEPEQUE"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "TEPECOYO"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "ZARAGOZA"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "AGUILARES"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "APOPA"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "AYUTUXTEPEQUE"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CUSCATANCINGO"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL PAISNAL"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "GUAZAPA"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "ILOPANGO"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "MEJICANOS"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "NEJAPA"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "PANCHIMALCO"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "ROSARIO DE MORA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN MARCOS"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SAN MARTIN"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN SALVADOR"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "STG TEXACUANGOS"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SANTO TOMAS"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SOYAPANGO"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "TONACATEPEQUE"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "CIUDAD DELGADO"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CANDELARIA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "COJUTEPEQUE"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "EL CARMEN"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "EL ROSARIO"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "MONTE SAN JUAN"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "ORAT CONCEPCIÓN"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "SAN B PERULAPIA"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN CRISTÓBAL"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN J GUAYABAL"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN P PERULAPÁN"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SAN RAF CEDROS"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN RAMON"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "STA C ANALQUITO"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "STA C MICHAPA"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SUCHITOTO"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "TENANCINGO"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CUYULTITÁN"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "EL ROSARIO"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "JERUSALÉN"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "MERCED LA CEIBA"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "OLOCUILTA"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "PARAÍSO OSORIO"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "SN ANT MASAHUAT"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN EMIGDIO"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SN FCO CHINAMEC"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN J NONUALCO"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SAN JUAN TALPA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN JUAN TEPEZONTES"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SAN LUIS TALPA"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN MIGUEL TEPEZONTES"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN PEDRO MASAHUAT"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SAN PEDRO NONUALCO"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN R OBRAJUELO"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "STA MA OSTUMA"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "STGO NONUALCO"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "TAPALHUACA"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "ZACATECOLUCA"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SN LUIS LA HERR"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CINQUERA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "GUACOTECTI"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "ILOBASCO"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "JUTIAPA"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "SAN ISIDRO"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "SENSUNTEPEQUE"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "TEJUTEPEQUE"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "VICTORIA"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "DOLORES"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "APASTEPEQUE"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "GUADALUPE"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "SAN CAY ISTEPEQ"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "SANTA CLARA"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "SANTO DOMINGO"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "SN EST CATARINA"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "SAN ILDEFONSO"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN LORENZO"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN SEBASTIÁN"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN VICENTE"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "TECOLUCA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "TEPETITÁN"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "VERAPAZ"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ALEGRÍA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "BERLÍN"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CALIFORNIA"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CONCEP BATRES"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL TRIUNFO"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "EREGUAYQUÍN"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "ESTANZUELAS"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "JIQUILISCO"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "JUCUAPA"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "JUCUARÁN"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "MERCEDES UMAÑA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "NUEVA GRANADA"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "OZATLÁN"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "PTO EL TRIUNFO"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN AGUSTÍN"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SN BUENAVENTURA"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN DIONISIO"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SANTA ELENA"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SAN FCO JAVIER"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SANTA MARÍA"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "STGO DE MARÍA"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "TECAPÁN"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "USULUTÁN"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CAROLINA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "CIUDAD BARRIOS"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "COMACARÁN"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CHAPELTIQUE"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "CHINAMECA"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "CHIRILAGUA"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "EL TRANSITO"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "LOLOTIQUE"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "MONCAGUA"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "NUEVA GUADALUPE"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "NVO EDÉN S JUAN"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "QUELEPA"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SAN ANT D MOSCO"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN GERARDO"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN JORGE"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SAN LUIS REINA"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN MIGUEL"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SAN RAF ORIENTE"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SESORI"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "ULUAZAPA"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ARAMBALA"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "CACAOPERA"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CORINTO"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CHILANGA"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "DELIC DE CONCEP"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "EL DIVISADERO"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "EL ROSARIO"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "GUALOCOCTI"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "GUATAJIAGUA"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "JOATECA"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "JOCOAITIQUE"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "JOCORO"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "LOLOTIQUILLO"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "MEANGUERA"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "OSICALA"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "PERQUÍN"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN CARLOS"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SAN FERNANDO"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SAN FCO GOTERA"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SAN ISIDRO"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN SIMÓN"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SENSEMBRA"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SOCIEDAD"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "TOROLA"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "YAMABAL"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "YOLOAIQUÍN"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ANAMOROS"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "BOLÍVAR"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CONCEP DE OTE"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CONCHAGUA"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL CARMEN"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "EL SAUCE"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "INTIPUCÁ"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "LA UNIÓN"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "LISLIQUE"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "MEANG DEL GOLFO"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "NUEVA ESPARTA"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "PASAQUINA"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "POLORÓS"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN ALEJO"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN JOSE"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SANTA ROSA LIMA"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "YAYANTIQUE"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "YUCUAIQUÍN"
+    }
+  ],
+  "009": [
+    {
+      "codigo": "01",
+      "descripcion": "Sucursal"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Casa Matriz"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Bodega"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "Patio"
+    }
+  ],
+  "010": [
+    {
+      "codigo": "01",
+      "descripcion": "Cirugía"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Operación"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Tratamiento médico"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Cirugía instituto salvadoreño de Bienestar Magisterial"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "Operación Instituto Salvadoreño de Bienestar Magisterial"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "Tratamiento médico Instituto Salvadoreño de Bienestar Magisterial"
+    }
+  ],
+  "011": [
+    {
+      "codigo": "01",
+      "descripcion": "Bienes"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Servicios"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Ambos (Bienes y Servicios, incluye los dos inherente a los Productos o servicios)"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Otros tributos por ítem"
+    }
+  ],
+  "012": [
+    {
+      "codigo": "00",
+      "descripcion": "Otro (Para extranjeros)"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "Ahuachapán"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Santa Ana"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Sonsonate"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Chalatenango"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "La Libertad"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "San Salvador"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "Cuscatlán"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "La Paz"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "Cabañas"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "San Vicente"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "Usulután"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "San Miguel"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "Morazán"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "La Unión"
+    }
+  ],
+  "013": [
+    {
+      "codigo": "00",
+      "descripcion": "Otro (Para extranjeros)"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "AHUACHAPAN NORTE"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "AHUACHAPAN CENTRO"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "AHUACHAPAN SUR"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SANTA ANA NORTE"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SANTA ANA CENTRO"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SANTA ANA ESTE"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SANTA ANA OESTE"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SONSONATE NORTE"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SONSONATE CENTRO"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SONSONATE ESTE"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SONSONATE OESTE"
+    },
+    {
+      "codigo": "34",
+      "descripcion": "CHALATENANGO NORTE"
+    },
+    {
+      "codigo": "35",
+      "descripcion": "CHALATENANGO CENTRO"
+    },
+    {
+      "codigo": "36",
+      "descripcion": "CHALATENANGO SUR"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "LA LIBERTAD NORTE"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "LA LIBERTAD CENTRO"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "LA LIBERTAD OESTE"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "LA LIBERTAD ESTE"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "LA LIBERTAD COSTA"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "LA LIBERTAD SUR"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SAN SALVADOR NORTE"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN SALVADOR OESTE"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SAN SALVADOR ESTE"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SAN SALVADOR CENTRO"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "SAN SALVADOR SUR"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "CUSCATLAN NORTE"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "CUSCATLAN SUR"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "LA PAZ OESTE"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "LA PAZ CENTRO"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "LA PAZ ESTE"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "CABAÑAS ESTE"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "CABAÑAS OESTE"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN VICENTE NORTE"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN VICENTE SUR"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "USULUTAN NORTE"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "USULUTAN ESTE"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "USULUTAN OESTE"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN MIGUEL NORTE"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SAN MIGUEL CENTRO"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SAN MIGUEL OESTE"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "MORAZAN NORTE"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "MORAZAN SUR"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "LA UNION NORTE"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "LA UNION SUR"
+    }
+  ],
+  "014": [
+    {
+      "codigo": "01",
+      "descripcion": "metro"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Yarda 1"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "milímetro"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "kilómetro cuadrado"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "Hectárea"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "metro cuadrado"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "Vara cuadrada 2"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "metro cúbico"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "Barril 3"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "Galón 1, 4"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "Litro"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "Botella"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "Mililitro"
+    },
+    {
+      "codigo": "30",
+      "descripcion": "Tonelada"
+    },
+    {
+      "codigo": "32",
+      "descripcion": "Quintal 1"
+    },
+    {
+      "codigo": "33",
+      "descripcion": "Arroba 1"
+    },
+    {
+      "codigo": "34",
+      "descripcion": "Kilogramo"
+    },
+    {
+      "codigo": "36",
+      "descripcion": "Libra 1"
+    },
+    {
+      "codigo": "37",
+      "descripcion": "Onza troy 5"
+    },
+    {
+      "codigo": "38",
+      "descripcion": "Onza 1"
+    },
+    {
+      "codigo": "39",
+      "descripcion": "Gramo"
+    },
+    {
+      "codigo": "40",
+      "descripcion": "Miligramo"
+    },
+    {
+      "codigo": "42",
+      "descripcion": "Megawatt"
+    },
+    {
+      "codigo": "43",
+      "descripcion": "Kilowatt"
+    },
+    {
+      "codigo": "44",
+      "descripcion": "Watt"
+    },
+    {
+      "codigo": "45",
+      "descripcion": "Megavoltio-amperio"
+    },
+    {
+      "codigo": "46",
+      "descripcion": "Kilovoltio-amperio"
+    },
+    {
+      "codigo": "47",
+      "descripcion": "Voltio-amperio"
+    },
+    {
+      "codigo": "49",
+      "descripcion": "Gigawatt-hora"
+    },
+    {
+      "codigo": "50",
+      "descripcion": "Megawatt-hora"
+    },
+    {
+      "codigo": "51",
+      "descripcion": "Kilowatt-hora"
+    },
+    {
+      "codigo": "52",
+      "descripcion": "Watt-hora"
+    },
+    {
+      "codigo": "53",
+      "descripcion": "Kilovoltio"
+    },
+    {
+      "codigo": "54",
+      "descripcion": "Voltio"
+    },
+    {
+      "codigo": "55",
+      "descripcion": "Millar"
+    },
+    {
+      "codigo": "56",
+      "descripcion": "Medio millar"
+    },
+    {
+      "codigo": "57",
+      "descripcion": "Ciento"
+    },
+    {
+      "codigo": "58",
+      "descripcion": "Docena"
+    },
+    {
+      "codigo": "59",
+      "descripcion": "Unidad"
+    },
+    {
+      "codigo": "99",
+      "descripcion": "Otra 6"
+    }
+  ],
+  "015": [
+    {
+      "codigo": "20",
+      "descripcion": "Impuesto al Valor Agregado 13%"
+    },
+    {
+      "codigo": "59",
+      "descripcion": "Turismo: por alojamiento (5%)"
+    },
+    {
+      "codigo": "71",
+      "descripcion": "Turismo: salida del país por vía aérea $7.00"
+    },
+    {
+      "codigo": "57",
+      "descripcion": "Impuesto industria de Cemento"
+    },
+    {
+      "codigo": "90",
+      "descripcion": "Impuesto especial a la primera matrícula"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "Fabricante de Bebidas Gaseosas, Isotónicas, Deportivas, Fortificantes, Energizante o Estimulante"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "Importador de Bebidas Gaseosas, Isotónicas, Deportivas, Fortificantes, Energizante o Estimulante"
+    },
+    {
+      "codigo": "31",
+      "descripcion": "Detallistas o Expendedores de Bebidas Alcohólicas"
+    },
+    {
+      "codigo": "32",
+      "descripcion": "Fabricante de Cerveza"
+    },
+    {
+      "codigo": "33",
+      "descripcion": "Importador de Cerveza"
+    },
+    {
+      "codigo": "34",
+      "descripcion": "Fabricante de Productos de Tabaco"
+    },
+    {
+      "codigo": "35",
+      "descripcion": "Importador de Productos de Tabaco"
+    },
+    {
+      "codigo": "36",
+      "descripcion": "Fabricante de Armas de Fuego, Municiones y Artículos Similares"
+    },
+    {
+      "codigo": "37",
+      "descripcion": "Importador de Arma de Fuego, Munición y Artículos. Similares"
+    },
+    {
+      "codigo": "38",
+      "descripcion": "Fabricante de Explosivos"
+    },
+    {
+      "codigo": "39",
+      "descripcion": "Importador de Explosivos"
+    },
+    {
+      "codigo": "42",
+      "descripcion": "Fabricante de Productos Pirotécnicos"
+    },
+    {
+      "codigo": "43",
+      "descripcion": "Importador de Productos Pirotécnicos"
+    },
+    {
+      "codigo": "44",
+      "descripcion": "Productor de Tabaco"
+    },
+    {
+      "codigo": "50",
+      "descripcion": "Distribuidor de Bebidas Gaseosas, Isotónicas, Deportivas, Fortificantes, Energizante o Estimulante"
+    },
+    {
+      "codigo": "51",
+      "descripcion": "Bebidas Alcohólicas"
+    },
+    {
+      "codigo": "52",
+      "descripcion": "Cerveza"
+    },
+    {
+      "codigo": "53",
+      "descripcion": "Productos del Tabaco"
+    },
+    {
+      "codigo": "54",
+      "descripcion": "Bebidas Carbonatadas o Gaseosas Simples o Endulzadas"
+    },
+    {
+      "codigo": "55",
+      "descripcion": "Otros Específicos"
+    },
+    {
+      "codigo": "58",
+      "descripcion": "Alcohol"
+    },
+    {
+      "codigo": "77",
+      "descripcion": "Importador de Jugos, Néctares, Bebidas con Jugo y Refrescos"
+    },
+    {
+      "codigo": "78",
+      "descripcion": "Distribuidor de Jugos, Néctares, Bebidas con Jugo y Refrescos"
+    },
+    {
+      "codigo": "79",
+      "descripcion": "Sobre Llamadas Telefónicas Provenientes del Ext."
+    },
+    {
+      "codigo": "85",
+      "descripcion": "Detallista de Jugos, Néctares, Bebidas con Jugo y Refrescos"
+    },
+    {
+      "codigo": "86",
+      "descripcion": "Fabricante de Preparaciones Concentradas o en Polvo para la Elaboración de Bebidas"
+    },
+    {
+      "codigo": "91",
+      "descripcion": "Fabricante de Jugos, Néctares, Bebidas con Jugo y Refrescos"
+    },
+    {
+      "codigo": "92",
+      "descripcion": "Importador de Preparaciones Concentradas o en Polvo para la Elaboración de Bebidas"
+    }
+  ],
+  "016": [
+    {
+      "codigo": "01",
+      "descripcion": "Contado"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "A crédito"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Otro"
+    }
+  ],
+  "017": [
+    {
+      "codigo": "01",
+      "descripcion": "Billetes y monedas"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Tarjeta Débito"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Tarjeta Crédito"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Cheque"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "Transferencia-Depósito Bancario"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "Dinero electrónico"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "Monedero electrónico"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "Bitcoin"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "Otras Criptomonedas"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "Cuentas por pagar del receptor"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "Giro bancario"
+    },
+    {
+      "codigo": "99",
+      "descripcion": "Otros (se debe indicar el medio de pago)"
+    }
+  ],
+  "018": [
+    {
+      "codigo": "01",
+      "descripcion": "Días"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Meses"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Años"
+    }
+  ],
+  "019": [
+    {
+      "codigo": "01111",
+      "descripcion": "Cultivo de cereales excepto arroz y para forrajes"
+    },
+    {
+      "codigo": "01112",
+      "descripcion": "Cultivo de legumbres"
+    },
+    {
+      "codigo": "01113",
+      "descripcion": "Cultivo de semillas oleaginosas"
+    },
+    {
+      "codigo": "01114",
+      "descripcion": "Cultivo de plantas para la preparación de semillas"
+    },
+    {
+      "codigo": "01119",
+      "descripcion": "Cultivo de otros cereales excepto arroz y forrajeros n.c.p."
+    },
+    {
+      "codigo": "01120",
+      "descripcion": "Cultivo de arroz"
+    },
+    {
+      "codigo": "01131",
+      "descripcion": "Cultivo de raíces y tubérculos"
+    },
+    {
+      "codigo": "01132",
+      "descripcion": "Cultivo de brotes, bulbos, vegetales tubérculos y cultivos similares"
+    },
+    {
+      "codigo": "01133",
+      "descripcion": "Cultivo hortícola de fruto"
+    },
+    {
+      "codigo": "01134",
+      "descripcion": "Cultivo de hortalizas de hoja y otras hortalizas ncp"
+    },
+    {
+      "codigo": "01140",
+      "descripcion": "Cultivo de caña de azúcar"
+    },
+    {
+      "codigo": "01150",
+      "descripcion": "Cultivo de tabaco"
+    },
+    {
+      "codigo": "01161",
+      "descripcion": "Cultivo de algodón"
+    },
+    {
+      "codigo": "01162",
+      "descripcion": "Cultivo de fibras vegetales excepto algodón"
+    },
+    {
+      "codigo": "01191",
+      "descripcion": "Cultivo de plantas no perennes para la producción de semillas y flores"
+    },
+    {
+      "codigo": "01192",
+      "descripcion": "Cultivo de cereales y pastos para la alimentación animal"
+    },
+    {
+      "codigo": "01199",
+      "descripcion": "Producción de cultivos no estacionales ncp"
+    },
+    {
+      "codigo": "01220",
+      "descripcion": "Cultivo de frutas tropicales"
+    },
+    {
+      "codigo": "01230",
+      "descripcion": "Cultivo de cítricos"
+    },
+    {
+      "codigo": "01240",
+      "descripcion": "Cultivo de frutas de pepita y hueso"
+    },
+    {
+      "codigo": "01251",
+      "descripcion": "Cultivo de frutas ncp"
+    },
+    {
+      "codigo": "01252",
+      "descripcion": "Cultivo de otros frutos y nueces de árboles y arbustos"
+    },
+    {
+      "codigo": "01260",
+      "descripcion": "Cultivo de frutos oleaginosos"
+    },
+    {
+      "codigo": "01271",
+      "descripcion": "Cultivo de café"
+    },
+    {
+      "codigo": "01272",
+      "descripcion": "Cultivo de plantas para la elaboración de bebidas excepto café"
+    },
+    {
+      "codigo": "01281",
+      "descripcion": "Cultivo de especias y aromáticas"
+    },
+    {
+      "codigo": "01282",
+      "descripcion": "Cultivo de plantas para la obtención de productos medicinales y farmacéuticos"
+    },
+    {
+      "codigo": "01291",
+      "descripcion": "Cultivo de árboles de hule (caucho) para la obtención de látex"
+    },
+    {
+      "codigo": "01292",
+      "descripcion": "Cultivo de plantas para la obtención de productos químicos y colorantes"
+    },
+    {
+      "codigo": "01299",
+      "descripcion": "Producción de cultivos perennes ncp"
+    },
+    {
+      "codigo": "01300",
+      "descripcion": "Propagación de plantas"
+    },
+    {
+      "codigo": "01301",
+      "descripcion": "Cultivo de plantas y flores ornamentales"
+    },
+    {
+      "codigo": "01410",
+      "descripcion": "Cría y engorde de ganado bovino"
+    },
+    {
+      "codigo": "01420",
+      "descripcion": "Cría de caballos y otros equinos"
+    },
+    {
+      "codigo": "01440",
+      "descripcion": "Cría de ovejas y cabras"
+    },
+    {
+      "codigo": "01450",
+      "descripcion": "Cría de cerdos"
+    },
+    {
+      "codigo": "01460",
+      "descripcion": "Cría de aves de corral y producción de huevos"
+    },
+    {
+      "codigo": "01491",
+      "descripcion": "Cría de abejas apicultura para la obtención de miel y otros productos apícolas"
+    },
+    {
+      "codigo": "01492",
+      "descripcion": "Cría de conejos"
+    },
+    {
+      "codigo": "01493",
+      "descripcion": "Cría de iguanas y garrobos"
+    },
+    {
+      "codigo": "01494",
+      "descripcion": "Cría de mariposas y otros insectos"
+    },
+    {
+      "codigo": "01499",
+      "descripcion": "Cría y obtención de productos animales n.c.p."
+    },
+    {
+      "codigo": "01500",
+      "descripcion": "Cultivo de productos agrícolas en combinación con la cría de animales"
+    },
+    {
+      "codigo": "01611",
+      "descripcion": "Servicios de maquinaria agrícola"
+    },
+    {
+      "codigo": "01612",
+      "descripcion": "Control de plagas"
+    },
+    {
+      "codigo": "01613",
+      "descripcion": "Servicios de riego"
+    },
+    {
+      "codigo": "01614",
+      "descripcion": "Servicios de contratación de mano de obra para la agricultura"
+    },
+    {
+      "codigo": "01619",
+      "descripcion": "Servicios agrícolas ncp"
+    },
+    {
+      "codigo": "01621",
+      "descripcion": "Actividades para mejorar la reproducción, el crecimiento y el rendimiento de los animales y sus productos"
+    },
+    {
+      "codigo": "01622",
+      "descripcion": "Servicios de mano de obra pecuaria"
+    },
+    {
+      "codigo": "01629",
+      "descripcion": "Servicios pecuarios ncp"
+    },
+    {
+      "codigo": "01631",
+      "descripcion": "Labores post cosecha de preparación de los productos agrícolas para su comercialización o para la industria"
+    },
+    {
+      "codigo": "01632",
+      "descripcion": "Servicio de beneficio de café"
+    },
+    {
+      "codigo": "01633",
+      "descripcion": "Servicio de beneficiado de plantas textiles (incluye el beneficiado cuando este es realizado en la misma explotación agropecuaria)"
+    },
+    {
+      "codigo": "01640",
+      "descripcion": "Tratamiento de semillas para la propagación"
+    },
+    {
+      "codigo": "01700",
+      "descripcion": "Caza ordinaria y mediante trampas, repoblación de animales de caza y servicios conexos"
+    },
+    {
+      "codigo": "02100",
+      "descripcion": "Silvicultura y otras actividades forestales"
+    },
+    {
+      "codigo": "02200",
+      "descripcion": "Extracción de madera"
+    },
+    {
+      "codigo": "02300",
+      "descripcion": "Recolección de productos diferentes a la madera"
+    },
+    {
+      "codigo": "02400",
+      "descripcion": "Servicios de apoyo a la silvicultura"
+    },
+    {
+      "codigo": "03110",
+      "descripcion": "Pesca marítima de altura y costera"
+    },
+    {
+      "codigo": "03120",
+      "descripcion": "Pesca de agua dulce"
+    },
+    {
+      "codigo": "03210",
+      "descripcion": "Acuicultura marítima"
+    },
+    {
+      "codigo": "03220",
+      "descripcion": "Acuicultura de agua dulce"
+    },
+    {
+      "codigo": "03300",
+      "descripcion": "Servicios de apoyo a la pesca y acuicultura"
+    },
+    {
+      "codigo": "05100",
+      "descripcion": "Extracción de hulla"
+    },
+    {
+      "codigo": "05200",
+      "descripcion": "Extracción y aglomeración de lignito"
+    },
+    {
+      "codigo": "06100",
+      "descripcion": "Extracción de petróleo crudo"
+    },
+    {
+      "codigo": "06200",
+      "descripcion": "Extracción de gas natural"
+    },
+    {
+      "codigo": "07100",
+      "descripcion": "Extracción de minerales de hierro"
+    },
+    {
+      "codigo": "07210",
+      "descripcion": "Extracción de minerales de uranio y torio"
+    },
+    {
+      "codigo": "07290",
+      "descripcion": "Extracción de minerales metalíferos no ferrosos"
+    },
+    {
+      "codigo": "08100",
+      "descripcion": "Extracción de piedra, arena y arcilla"
+    },
+    {
+      "codigo": "08910",
+      "descripcion": "Extracción de minerales para la fabricación de abonos y productos químicos"
+    },
+    {
+      "codigo": "08920",
+      "descripcion": "Extracción y aglomeración de turba"
+    },
+    {
+      "codigo": "08930",
+      "descripcion": "Extracción de sal"
+    },
+    {
+      "codigo": "08990",
+      "descripcion": "Explotación de otras minas y canteras ncp"
+    },
+    {
+      "codigo": "09100",
+      "descripcion": "Actividades de apoyo a la extracción de petróleo y gas natural"
+    },
+    {
+      "codigo": "09900",
+      "descripcion": "Actividades de apoyo a la explotación de minas y canteras"
+    },
+    {
+      "codigo": "10101",
+      "descripcion": "Servicio de rastros y mataderos de bovinos y porcinos"
+    },
+    {
+      "codigo": "10102",
+      "descripcion": "Matanza y procesamiento de bovinos y porcinos"
+    },
+    {
+      "codigo": "10103",
+      "descripcion": "Matanza y procesamientos de aves de corral"
+    },
+    {
+      "codigo": "10104",
+      "descripcion": "Elaboración y conservación de embutidos y tripas naturales"
+    },
+    {
+      "codigo": "10105",
+      "descripcion": "Servicios de conservación y empaque de carnes"
+    },
+    {
+      "codigo": "10106",
+      "descripcion": "Elaboración y conservación de grasas y aceites animales"
+    },
+    {
+      "codigo": "10107",
+      "descripcion": "Servicios de molienda de carne"
+    },
+    {
+      "codigo": "10108",
+      "descripcion": "Elaboración de productos de carne ncp"
+    },
+    {
+      "codigo": "10201",
+      "descripcion": "Procesamiento y conservación de pescado, crustáceos y moluscos"
+    },
+    {
+      "codigo": "10209",
+      "descripcion": "Fabricación de productos de pescado ncp"
+    },
+    {
+      "codigo": "10301",
+      "descripcion": "Elaboración de jugos de frutas y hortalizas"
+    },
+    {
+      "codigo": "10302",
+      "descripcion": "Elaboración y envase de jaleas, mermeladas y frutas deshidratadas"
+    },
+    {
+      "codigo": "10309",
+      "descripcion": "Elaboración de productos de frutas y hortalizas n.c.p."
+    },
+    {
+      "codigo": "10401",
+      "descripcion": "Fabricación de aceites y grasas vegetales y animales comestibles"
+    },
+    {
+      "codigo": "10402",
+      "descripcion": "Fabricación de aceites y grasas vegetales y animales no comestibles"
+    },
+    {
+      "codigo": "10409",
+      "descripcion": "Servicio de maquilado de aceites"
+    },
+    {
+      "codigo": "10501",
+      "descripcion": "Fabricación de productos lácteos excepto sorbetes y quesos sustitutos"
+    },
+    {
+      "codigo": "10502",
+      "descripcion": "Fabricación de sorbetes y helados"
+    },
+    {
+      "codigo": "10503",
+      "descripcion": "Fabricación de quesos"
+    },
+    {
+      "codigo": "10611",
+      "descripcion": "Molienda de cereales"
+    },
+    {
+      "codigo": "10612",
+      "descripcion": "Elaboración de cereales para el desayuno y similares"
+    },
+    {
+      "codigo": "10613",
+      "descripcion": "Servicios de beneficiado de productos agrícolas ncp (excluye Beneficio de azúcar rama 1072 y beneficio de café rama 0163)"
+    },
+    {
+      "codigo": "10621",
+      "descripcion": "Fabricación de almidón"
+    },
+    {
+      "codigo": "10628",
+      "descripcion": "Servicio de molienda de maíz húmedo molino para nixtamal"
+    },
+    {
+      "codigo": "10711",
+      "descripcion": "Elaboración de tortillas"
+    },
+    {
+      "codigo": "10712",
+      "descripcion": "Fabricación de pan, galletas y barquillos"
+    },
+    {
+      "codigo": "10713",
+      "descripcion": "Fabricación de repostería"
+    },
+    {
+      "codigo": "10721",
+      "descripcion": "Ingenios azucareros"
+    },
+    {
+      "codigo": "10722",
+      "descripcion": "Molienda de caña de azúcar para la elaboración de dulces"
+    },
+    {
+      "codigo": "10723",
+      "descripcion": "Elaboración de jarabes de azúcar y otros similares"
+    },
+    {
+      "codigo": "10724",
+      "descripcion": "Maquilado de azúcar de caña"
+    },
+    {
+      "codigo": "10730",
+      "descripcion": "Fabricación de cacao, chocolates y productos de confitería"
+    },
+    {
+      "codigo": "10740",
+      "descripcion": "Elaboración de macarrones, fideos, y productos farináceos similares"
+    },
+    {
+      "codigo": "10750",
+      "descripcion": "Elaboración de comidas y platos preparados para la reventa en locales y/o para exportación"
+    },
+    {
+      "codigo": "10791",
+      "descripcion": "Elaboración de productos de café"
+    },
+    {
+      "codigo": "10792",
+      "descripcion": "Elaboración de especies, sazonadores y condimentos"
+    },
+    {
+      "codigo": "10793",
+      "descripcion": "Elaboración de sopas, cremas y consomé"
+    },
+    {
+      "codigo": "10794",
+      "descripcion": "Fabricación de bocadillos tostados y/o fritos"
+    },
+    {
+      "codigo": "10799",
+      "descripcion": "Elaboración de productos alimenticios ncp"
+    },
+    {
+      "codigo": "10800",
+      "descripcion": "Elaboración de alimentos preparados para animales"
+    },
+    {
+      "codigo": "11012",
+      "descripcion": "Fabricación de aguardiente y licores"
+    },
+    {
+      "codigo": "11020",
+      "descripcion": "Elaboración de vinos"
+    },
+    {
+      "codigo": "11030",
+      "descripcion": "Fabricación de cerveza"
+    },
+    {
+      "codigo": "11041",
+      "descripcion": "Fabricación de aguas gaseosas"
+    },
+    {
+      "codigo": "11042",
+      "descripcion": "Fabricación y envasado de agua"
+    },
+    {
+      "codigo": "11043",
+      "descripcion": "Elaboración de refrescos"
+    },
+    {
+      "codigo": "11048",
+      "descripcion": "Maquilado de aguas gaseosas"
+    },
+    {
+      "codigo": "11049",
+      "descripcion": "Elaboración de bebidas no alcohólicas"
+    },
+    {
+      "codigo": "12000",
+      "descripcion": "Elaboración de productos de tabaco"
+    },
+    {
+      "codigo": "13111",
+      "descripcion": "Preparación de fibras textiles"
+    },
+    {
+      "codigo": "13112",
+      "descripcion": "Fabricación de hilados"
+    },
+    {
+      "codigo": "13120",
+      "descripcion": "Fabricación de telas"
+    },
+    {
+      "codigo": "13130",
+      "descripcion": "Acabado de productos textiles"
+    },
+    {
+      "codigo": "13910",
+      "descripcion": "Fabricación de tejidos de punto y ganchillo"
+    },
+    {
+      "codigo": "13921",
+      "descripcion": "Fabricación de productos textiles para el hogar"
+    },
+    {
+      "codigo": "13922",
+      "descripcion": "Sacos, bolsas y otros artículos textiles"
+    },
+    {
+      "codigo": "13929",
+      "descripcion": "Fabricación de artículos confeccionados con materiales textiles, excepto prendas de vestir n.c.p"
+    },
+    {
+      "codigo": "13930",
+      "descripcion": "Fabricación de tapices y alfombras"
+    },
+    {
+      "codigo": "13941",
+      "descripcion": "Fabricación de cuerdas de henequén y otras fibras naturales (lazos, pitas)"
+    },
+    {
+      "codigo": "13942",
+      "descripcion": "Fabricación de redes de diversos materiales"
+    },
+    {
+      "codigo": "13948",
+      "descripcion": "Maquilado de productos trenzables de cualquier material (petates, sillas, etc.)"
+    },
+    {
+      "codigo": "13991",
+      "descripcion": "Fabricación de adornos, etiquetas y otros artículos para prendas de vestir"
+    },
+    {
+      "codigo": "13992",
+      "descripcion": "Servicio de bordados en artículos y prendas de tela"
+    },
+    {
+      "codigo": "13999",
+      "descripcion": "Fabricación de productos textiles ncp"
+    },
+    {
+      "codigo": "14101",
+      "descripcion": "Fabricación de ropa interior, para dormir y similares"
+    },
+    {
+      "codigo": "14102",
+      "descripcion": "Fabricación de ropa para niños"
+    },
+    {
+      "codigo": "14103",
+      "descripcion": "Fabricación de prendas de vestir para ambos sexos"
+    },
+    {
+      "codigo": "14104",
+      "descripcion": "Confección de prendas a medida"
+    },
+    {
+      "codigo": "14105",
+      "descripcion": "Fabricación de prendas de vestir para deportes"
+    },
+    {
+      "codigo": "14106",
+      "descripcion": "Elaboración de artesanías de uso personal confeccionadas especialmente de materiales textiles"
+    },
+    {
+      "codigo": "14108",
+      "descripcion": "Maquilado de prendas de vestir, accesorios y otros"
+    },
+    {
+      "codigo": "14109",
+      "descripcion": "Fabricación de prendas y accesorios de vestir n.c.p."
+    },
+    {
+      "codigo": "14200",
+      "descripcion": "Fabricación de artículos de piel"
+    },
+    {
+      "codigo": "14301",
+      "descripcion": "Fabricación de calcetines, calcetas, medias (panty house) y otros similares"
+    },
+    {
+      "codigo": "14302",
+      "descripcion": "Fabricación de ropa interior de tejido de punto"
+    },
+    {
+      "codigo": "14309",
+      "descripcion": "Fabricación de prendas de vestir de tejido de punto ncp"
+    },
+    {
+      "codigo": "15110",
+      "descripcion": "Curtido y adobo de cueros; adobo y teñido de pieles"
+    },
+    {
+      "codigo": "15121",
+      "descripcion": "Fabricación de maletas, bolsos de mano y otros artículos de marroquinería"
+    },
+    {
+      "codigo": "15122",
+      "descripcion": "Fabricación de monturas, accesorios y vainas talabartería"
+    },
+    {
+      "codigo": "15123",
+      "descripcion": "Fabricación de artesanías principalmente de cuero natural y sintético"
+    },
+    {
+      "codigo": "15128",
+      "descripcion": "Maquilado de artículos de cuero natural, sintético y de otros materiales"
+    },
+    {
+      "codigo": "15201",
+      "descripcion": "Fabricación de calzado"
+    },
+    {
+      "codigo": "15202",
+      "descripcion": "Fabricación de partes y accesorios de calzado"
+    },
+    {
+      "codigo": "15208",
+      "descripcion": "Maquilado de partes y accesorios de calzado"
+    },
+    {
+      "codigo": "16100",
+      "descripcion": "Aserradero y acepilladura de madera"
+    },
+    {
+      "codigo": "16210",
+      "descripcion": "Fabricación de madera laminada, terciada, enchapada y contrachapada, paneles para la construcción"
+    },
+    {
+      "codigo": "16220",
+      "descripcion": "Fabricación de partes y piezas de carpintería para edificios y construcciones"
+    },
+    {
+      "codigo": "16230",
+      "descripcion": "Fabricación de envases y recipientes de madera"
+    },
+    {
+      "codigo": "16292",
+      "descripcion": "Fabricación de artesanías de madera, semillas, materiales trenzables"
+    },
+    {
+      "codigo": "16299",
+      "descripcion": "Fabricación de productos de madera, corcho, paja y materiales trenzables ncp"
+    },
+    {
+      "codigo": "17010",
+      "descripcion": "Fabricación de pasta de madera, papel y cartón"
+    },
+    {
+      "codigo": "17020",
+      "descripcion": "Fabricación de papel y cartón ondulado y envases de papel y cartón"
+    },
+    {
+      "codigo": "17091",
+      "descripcion": "Fabricación de artículos de papel y cartón de uso personal y doméstico"
+    },
+    {
+      "codigo": "17092",
+      "descripcion": "Fabricación de productos de papel ncp"
+    },
+    {
+      "codigo": "18110",
+      "descripcion": "Impresión"
+    },
+    {
+      "codigo": "18120",
+      "descripcion": "Servicios relacionados con la impresión"
+    },
+    {
+      "codigo": "18200",
+      "descripcion": "Reproducción de grabaciones"
+    },
+    {
+      "codigo": "19100",
+      "descripcion": "Fabricación de productos de hornos de coque"
+    },
+    {
+      "codigo": "19201",
+      "descripcion": "Fabricación de combustible"
+    },
+    {
+      "codigo": "19202",
+      "descripcion": "Fabricación de aceites y lubricantes"
+    },
+    {
+      "codigo": "20111",
+      "descripcion": "Fabricación de materias primas para la fabricación de colorantes"
+    },
+    {
+      "codigo": "20112",
+      "descripcion": "Fabricación de materiales curtientes"
+    },
+    {
+      "codigo": "20113",
+      "descripcion": "Fabricación de gases industriales"
+    },
+    {
+      "codigo": "20114",
+      "descripcion": "Fabricación de alcohol etílico"
+    },
+    {
+      "codigo": "20119",
+      "descripcion": "Fabricación de sustancias químicas básicas"
+    },
+    {
+      "codigo": "20120",
+      "descripcion": "Fabricación de abonos y fertilizantes"
+    },
+    {
+      "codigo": "20130",
+      "descripcion": "Fabricación de plástico y caucho en formas primarias"
+    },
+    {
+      "codigo": "20210",
+      "descripcion": "Fabricación de plaguicidas y otros productos químicos de uso agropecuario"
+    },
+    {
+      "codigo": "20220",
+      "descripcion": "Fabricación de pinturas, barnices y productos de revestimiento similares; tintas de imprenta y masillas"
+    },
+    {
+      "codigo": "20231",
+      "descripcion": "Fabricación de jabones, detergentes y similares para limpieza"
+    },
+    {
+      "codigo": "20232",
+      "descripcion": "Fabricación de perfumes, cosméticos y productos de higiene y cuidado personal, incluyendo tintes, champú, etc."
+    },
+    {
+      "codigo": "20291",
+      "descripcion": "Fabricación de tintas y colores para escribir y pintar; fabricación de cintas para impresoras"
+    },
+    {
+      "codigo": "20292",
+      "descripcion": "Fabricación de productos pirotécnicos, explosivos y municiones"
+    },
+    {
+      "codigo": "20299",
+      "descripcion": "Fabricación de productos químicos n.c.p."
+    },
+    {
+      "codigo": "20300",
+      "descripcion": "Fabricación de fibras artificiales"
+    },
+    {
+      "codigo": "21001",
+      "descripcion": "Manufactura de productos farmacéuticos, sustancias químicas y productos botánicos"
+    },
+    {
+      "codigo": "21008",
+      "descripcion": "Maquilado de medicamentos"
+    },
+    {
+      "codigo": "22110",
+      "descripcion": "Fabricación de cubiertas y cámaras; renovación y recauchutado de cubiertas"
+    },
+    {
+      "codigo": "22190",
+      "descripcion": "Fabricación de otros productos de caucho"
+    },
+    {
+      "codigo": "22201",
+      "descripcion": "Fabricación de envases plásticos"
+    },
+    {
+      "codigo": "22202",
+      "descripcion": "Fabricación de productos plásticos para uso personal o doméstico"
+    },
+    {
+      "codigo": "22208",
+      "descripcion": "Maquila de plásticos"
+    },
+    {
+      "codigo": "22209",
+      "descripcion": "Fabricación de productos plásticos n.c.p."
+    },
+    {
+      "codigo": "23101",
+      "descripcion": "Fabricación de vidrio"
+    },
+    {
+      "codigo": "23102",
+      "descripcion": "Fabricación de recipientes y envases de vidrio"
+    },
+    {
+      "codigo": "23108",
+      "descripcion": "Servicio de maquilado"
+    },
+    {
+      "codigo": "23109",
+      "descripcion": "Fabricación de productos de vidrio ncp"
+    },
+    {
+      "codigo": "23910",
+      "descripcion": "Fabricación de productos refractarios"
+    },
+    {
+      "codigo": "23920",
+      "descripcion": "Fabricación de productos de arcilla para la construcción"
+    },
+    {
+      "codigo": "23931",
+      "descripcion": "Fabricación de productos de cerámica y porcelana no refractaria"
+    },
+    {
+      "codigo": "23932",
+      "descripcion": "Fabricación de productos de cerámica y porcelana ncp"
+    },
+    {
+      "codigo": "23940",
+      "descripcion": "Fabricación de cemento, cal y yeso"
+    },
+    {
+      "codigo": "23950",
+      "descripcion": "Fabricación de artículos de hormigón, cemento y yeso"
+    },
+    {
+      "codigo": "23960",
+      "descripcion": "Corte, tallado y acabado de la piedra"
+    },
+    {
+      "codigo": "23990",
+      "descripcion": "Fabricación de productos minerales no metálicos ncp"
+    },
+    {
+      "codigo": "24100",
+      "descripcion": "Industrias básicas de hierro y acero"
+    },
+    {
+      "codigo": "24200",
+      "descripcion": "Fabricación de productos primarios de metales preciosos y metales no ferrosos"
+    },
+    {
+      "codigo": "24310",
+      "descripcion": "Fundición de hierro y acero"
+    },
+    {
+      "codigo": "24320",
+      "descripcion": "Fundición de metales no ferrosos"
+    },
+    {
+      "codigo": "25111",
+      "descripcion": "Fabricación de productos metálicos para uso estructural"
+    },
+    {
+      "codigo": "25118",
+      "descripcion": "Servicio de maquila para la fabricación de estructuras metálicas"
+    },
+    {
+      "codigo": "25120",
+      "descripcion": "Fabricación de tanques, depósitos y recipientes de metal"
+    },
+    {
+      "codigo": "25130",
+      "descripcion": "Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central"
+    },
+    {
+      "codigo": "25200",
+      "descripcion": "Fabricación de armas y municiones"
+    },
+    {
+      "codigo": "25910",
+      "descripcion": "Forjado, prensado, estampado y laminado de metales; pulvimetalurgia"
+    },
+    {
+      "codigo": "25920",
+      "descripcion": "Tratamiento y revestimiento de metales"
+    },
+    {
+      "codigo": "25930",
+      "descripcion": "Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería"
+    },
+    {
+      "codigo": "25991",
+      "descripcion": "Fabricación de envases y artículos conexos de metal"
+    },
+    {
+      "codigo": "25992",
+      "descripcion": "Fabricación de artículos metálicos de uso personal y/o doméstico"
+    },
+    {
+      "codigo": "25999",
+      "descripcion": "Fabricación de productos elaborados de metal ncp"
+    },
+    {
+      "codigo": "26100",
+      "descripcion": "Fabricación de componentes electrónicos"
+    },
+    {
+      "codigo": "26200",
+      "descripcion": "Fabricación de computadoras y equipo conexo"
+    },
+    {
+      "codigo": "26300",
+      "descripcion": "Fabricación de equipo de comunicaciones"
+    },
+    {
+      "codigo": "26400",
+      "descripcion": "Fabricación de aparatos electrónicos de consumo para audio, video radio y televisión"
+    },
+    {
+      "codigo": "26510",
+      "descripcion": "Fabricación de instrumentos y aparatos para medir, verificar, ensayar, navegar y de control de procesos industriales"
+    },
+    {
+      "codigo": "26520",
+      "descripcion": "Fabricación de relojes y piezas de relojes"
+    },
+    {
+      "codigo": "26600",
+      "descripcion": "Fabricación de equipo médico de irradiación y equipo electrónico de uso médico y terapéutico"
+    },
+    {
+      "codigo": "26700",
+      "descripcion": "Fabricación de instrumentos de óptica y equipo fotográfico"
+    },
+    {
+      "codigo": "26800",
+      "descripcion": "Fabricación de medios magnéticos y ópticos"
+    },
+    {
+      "codigo": "27100",
+      "descripcion": "Fabricación de motores, generadores, transformadores eléctricos, aparatos de distribución y control de electricidad"
+    },
+    {
+      "codigo": "27200",
+      "descripcion": "Fabricación de pilas, baterías y acumuladores"
+    },
+    {
+      "codigo": "27310",
+      "descripcion": "Fabricación de cables de fibra óptica"
+    },
+    {
+      "codigo": "27320",
+      "descripcion": "Fabricación de otros hilos y cables eléctricos"
+    },
+    {
+      "codigo": "27330",
+      "descripcion": "Fabricación de dispositivos de cableados"
+    },
+    {
+      "codigo": "27400",
+      "descripcion": "Fabricación de equipo eléctrico de iluminación"
+    },
+    {
+      "codigo": "27500",
+      "descripcion": "Fabricación de aparatos de uso doméstico"
+    },
+    {
+      "codigo": "27900",
+      "descripcion": "Fabricación de otros tipos de equipo eléctrico"
+    },
+    {
+      "codigo": "28110",
+      "descripcion": "Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas"
+    },
+    {
+      "codigo": "28120",
+      "descripcion": "Fabricación de equipo hidráulico"
+    },
+    {
+      "codigo": "28130",
+      "descripcion": "Fabricación de otras bombas, compresores, grifos y válvulas"
+    },
+    {
+      "codigo": "28140",
+      "descripcion": "Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión"
+    },
+    {
+      "codigo": "28150",
+      "descripcion": "Fabricación de hornos y quemadores"
+    },
+    {
+      "codigo": "28160",
+      "descripcion": "Fabricación de equipo de elevación y manipulación"
+    },
+    {
+      "codigo": "28170",
+      "descripcion": "Fabricación de maquinaria y equipo de oficina"
+    },
+    {
+      "codigo": "28180",
+      "descripcion": "Fabricación de herramientas manuales"
+    },
+    {
+      "codigo": "28190",
+      "descripcion": "Fabricación de otros tipos de maquinaria de uso general"
+    },
+    {
+      "codigo": "28210",
+      "descripcion": "Fabricación de maquinaria agropecuaria y forestal"
+    },
+    {
+      "codigo": "28220",
+      "descripcion": "Fabricación de máquinas para conformar metales y maquinaria herramienta"
+    },
+    {
+      "codigo": "28230",
+      "descripcion": "Fabricación de maquinaria metalúrgica"
+    },
+    {
+      "codigo": "28240",
+      "descripcion": "Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción"
+    },
+    {
+      "codigo": "28250",
+      "descripcion": "Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco"
+    },
+    {
+      "codigo": "28260",
+      "descripcion": "Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros"
+    },
+    {
+      "codigo": "28291",
+      "descripcion": "Fabricación de máquinas para imprenta"
+    },
+    {
+      "codigo": "28299",
+      "descripcion": "Fabricación de maquinaria de uso especial ncp"
+    },
+    {
+      "codigo": "29100",
+      "descripcion": "Fabricación vehículos automotores"
+    },
+    {
+      "codigo": "29200",
+      "descripcion": "Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semiremolques"
+    },
+    {
+      "codigo": "29300",
+      "descripcion": "Fabricación de partes, piezas y accesorios para vehículos automotores"
+    },
+    {
+      "codigo": "30110",
+      "descripcion": "Fabricación de buques"
+    },
+    {
+      "codigo": "30120",
+      "descripcion": "Construcción y reparación de embarcaciones de recreo"
+    },
+    {
+      "codigo": "30200",
+      "descripcion": "Fabricación de locomotoras y de material rodante"
+    },
+    {
+      "codigo": "30300",
+      "descripcion": "Fabricación de aeronaves y naves espaciales"
+    },
+    {
+      "codigo": "30400",
+      "descripcion": "Fabricación de vehículos militares de combate"
+    },
+    {
+      "codigo": "30910",
+      "descripcion": "Fabricación de motocicletas"
+    },
+    {
+      "codigo": "30920",
+      "descripcion": "Fabricación de bicicletas y sillones de ruedas para inválidos"
+    },
+    {
+      "codigo": "30990",
+      "descripcion": "Fabricación de equipo de transporte ncp"
+    },
+    {
+      "codigo": "31001",
+      "descripcion": "Fabricación de colchones y somier"
+    },
+    {
+      "codigo": "31002",
+      "descripcion": "Fabricación de muebles y otros productos de madera a medida"
+    },
+    {
+      "codigo": "31008",
+      "descripcion": "Servicios de maquilado de muebles"
+    },
+    {
+      "codigo": "31009",
+      "descripcion": "Fabricación de muebles ncp"
+    },
+    {
+      "codigo": "32110",
+      "descripcion": "Fabricación de joyas platerías y joyerías"
+    },
+    {
+      "codigo": "32120",
+      "descripcion": "Fabricación de joyas de imitación (fantasía) y artículos conexos"
+    },
+    {
+      "codigo": "32200",
+      "descripcion": "Fabricación de instrumentos musicales"
+    },
+    {
+      "codigo": "32301",
+      "descripcion": "Fabricación de artículos de deporte"
+    },
+    {
+      "codigo": "32308",
+      "descripcion": "Servicio de maquila de productos deportivos"
+    },
+    {
+      "codigo": "32401",
+      "descripcion": "Fabricación de juegos de mesa y de salón"
+    },
+    {
+      "codigo": "32402",
+      "descripcion": "Servicio de maquilado de juguetes y juegos"
+    },
+    {
+      "codigo": "32409",
+      "descripcion": "Fabricación de juegos y juguetes n.c.p."
+    },
+    {
+      "codigo": "32500",
+      "descripcion": "Fabricación de instrumentos y materiales médicos y odontológicos"
+    },
+    {
+      "codigo": "32901",
+      "descripcion": "Fabricación de lápices, bolígrafos, sellos y artículos de librería en general"
+    },
+    {
+      "codigo": "32902",
+      "descripcion": "Fabricación de escobas, cepillos, pinceles y similares"
+    },
+    {
+      "codigo": "32903",
+      "descripcion": "Fabricación de artesanías de materiales diversos"
+    },
+    {
+      "codigo": "32904",
+      "descripcion": "Fabricación de artículos de uso personal y domésticos n.c.p."
+    },
+    {
+      "codigo": "32905",
+      "descripcion": "Fabricación de accesorios para las confecciones y la marroquinería n.c.p."
+    },
+    {
+      "codigo": "32908",
+      "descripcion": "Servicios de maquila ncp"
+    },
+    {
+      "codigo": "32909",
+      "descripcion": "Fabricación de productos manufacturados n.c.p."
+    },
+    {
+      "codigo": "33110",
+      "descripcion": "Reparación y mantenimiento de productos elaborados de metal"
+    },
+    {
+      "codigo": "33120",
+      "descripcion": "Reparación y mantenimiento de maquinaria"
+    },
+    {
+      "codigo": "33130",
+      "descripcion": "Reparación y mantenimiento de equipo electrónico y óptico"
+    },
+    {
+      "codigo": "33140",
+      "descripcion": "Reparación y mantenimiento de equipo eléctrico"
+    },
+    {
+      "codigo": "33150",
+      "descripcion": "Reparación y mantenimiento de equipo de transporte, excepto vehículos automotores"
+    },
+    {
+      "codigo": "33190",
+      "descripcion": "Reparación y mantenimiento de equipos n.c.p."
+    },
+    {
+      "codigo": "33200",
+      "descripcion": "Instalación de maquinaria y equipo industrial"
+    },
+    {
+      "codigo": "35101",
+      "descripcion": "Generación de energía eléctrica"
+    },
+    {
+      "codigo": "35102",
+      "descripcion": "Transmisión de energía eléctrica"
+    },
+    {
+      "codigo": "35103",
+      "descripcion": "Distribución de energía eléctrica"
+    },
+    {
+      "codigo": "35200",
+      "descripcion": "Fabricación de gas, distribución de combustibles gaseosos por tuberías"
+    },
+    {
+      "codigo": "35300",
+      "descripcion": "Suministro de vapor y agua caliente"
+    },
+    {
+      "codigo": "36000",
+      "descripcion": "Captación, tratamiento y suministro de agua"
+    },
+    {
+      "codigo": "37000",
+      "descripcion": "Evacuación de aguas residuales (alcantarillado)"
+    },
+    {
+      "codigo": "38110",
+      "descripcion": "Recolección y transporte de desechos sólidos proveniente de hogares y sector urbano"
+    },
+    {
+      "codigo": "38120",
+      "descripcion": "Recolección de desechos peligrosos"
+    },
+    {
+      "codigo": "38210",
+      "descripcion": "Tratamiento y eliminación de desechos inicuos"
+    },
+    {
+      "codigo": "38220",
+      "descripcion": "Tratamiento y eliminación de desechos peligrosos"
+    },
+    {
+      "codigo": "38301",
+      "descripcion": "Reciclaje de desperdicios y desechos textiles"
+    },
+    {
+      "codigo": "38302",
+      "descripcion": "Reciclaje de desperdicios y desechos de plástico y caucho"
+    },
+    {
+      "codigo": "38303",
+      "descripcion": "Reciclaje de desperdicios y desechos de vidrio"
+    },
+    {
+      "codigo": "38304",
+      "descripcion": "Reciclaje de desperdicios y desechos de papel y cartón"
+    },
+    {
+      "codigo": "38305",
+      "descripcion": "Reciclaje de desperdicios y desechos metálicos"
+    },
+    {
+      "codigo": "38309",
+      "descripcion": "Reciclaje de desperdicios y desechos no metálicos n.c.p."
+    },
+    {
+      "codigo": "39000",
+      "descripcion": "Actividades de Saneamiento y otros Servicios de Gestión de Desechos"
+    },
+    {
+      "codigo": "41001",
+      "descripcion": "Construcción de edificios residenciales"
+    },
+    {
+      "codigo": "41002",
+      "descripcion": "Construcción de edificios no residenciales"
+    },
+    {
+      "codigo": "42100",
+      "descripcion": "Construcción de carreteras, calles y caminos"
+    },
+    {
+      "codigo": "42200",
+      "descripcion": "Construcción de proyectos de servicio público"
+    },
+    {
+      "codigo": "42900",
+      "descripcion": "Construcción de obras de ingeniería civil n.c.p."
+    },
+    {
+      "codigo": "43110",
+      "descripcion": "Demolición"
+    },
+    {
+      "codigo": "43120",
+      "descripcion": "Preparación de terreno"
+    },
+    {
+      "codigo": "43210",
+      "descripcion": "Instalaciones eléctricas"
+    },
+    {
+      "codigo": "43220",
+      "descripcion": "Instalación de fontanería, calefacción y aire acondicionado"
+    },
+    {
+      "codigo": "43290",
+      "descripcion": "Otras instalaciones para obras de construcción"
+    },
+    {
+      "codigo": "43300",
+      "descripcion": "Terminación y acabado de edificios"
+    },
+    {
+      "codigo": "43900",
+      "descripcion": "Otras actividades especializadas de construcción"
+    },
+    {
+      "codigo": "43901",
+      "descripcion": "Fabricación de techos y materiales diversos"
+    },
+    {
+      "codigo": "45100",
+      "descripcion": "Venta de vehículos automotores"
+    },
+    {
+      "codigo": "45201",
+      "descripcion": "Reparación mecánica de vehículos automotores"
+    },
+    {
+      "codigo": "45202",
+      "descripcion": "Reparaciones eléctricas del automotor y recarga de baterías"
+    },
+    {
+      "codigo": "45203",
+      "descripcion": "Enderezado y pintura de vehículos automotores"
+    },
+    {
+      "codigo": "45204",
+      "descripcion": "Reparaciones de radiadores, escapes y silenciadores"
+    },
+    {
+      "codigo": "45205",
+      "descripcion": "Reparación y reconstrucción de vías, stop y otros artículos de fibra de vidrio"
+    },
+    {
+      "codigo": "45206",
+      "descripcion": "Reparación de llantas de vehículos automotores"
+    },
+    {
+      "codigo": "45207",
+      "descripcion": "Polarizado de vehículos (mediante la adhesión de papel especial a los vidrios)"
+    },
+    {
+      "codigo": "45208",
+      "descripcion": "Lavado y pasteado de vehículos (carwash)"
+    },
+    {
+      "codigo": "45209",
+      "descripcion": "Reparaciones de vehículos n.c.p."
+    },
+    {
+      "codigo": "45211",
+      "descripcion": "Remolque de vehículos automotores"
+    },
+    {
+      "codigo": "45301",
+      "descripcion": "Venta de partes, piezas y accesorios nuevos para vehículos automotores"
+    },
+    {
+      "codigo": "45302",
+      "descripcion": "Venta de partes, piezas y accesorios usados para vehículos automotores"
+    },
+    {
+      "codigo": "45401",
+      "descripcion": "Venta de motocicletas"
+    },
+    {
+      "codigo": "45402",
+      "descripcion": "Venta de repuestos, piezas y accesorios de motocicletas"
+    },
+    {
+      "codigo": "45403",
+      "descripcion": "Mantenimiento y reparación de motocicletas"
+    },
+    {
+      "codigo": "46100",
+      "descripcion": "Venta al por mayor a cambio de retribución o por contrata"
+    },
+    {
+      "codigo": "46201",
+      "descripcion": "Venta al por mayor de materias primas agrícolas"
+    },
+    {
+      "codigo": "46202",
+      "descripcion": "Venta al por mayor de productos de la silvicultura"
+    },
+    {
+      "codigo": "46203",
+      "descripcion": "Venta al por mayor de productos pecuarios y de granja"
+    },
+    {
+      "codigo": "46211",
+      "descripcion": "Venta de productos para uso agropecuario"
+    },
+    {
+      "codigo": "46291",
+      "descripcion": "Venta al por mayor de granos básicos (cereales, leguminosas)"
+    },
+    {
+      "codigo": "46292",
+      "descripcion": "Venta al por mayor de semillas mejoradas para cultivo"
+    },
+    {
+      "codigo": "46293",
+      "descripcion": "Venta al por mayor de café oro y uva"
+    },
+    {
+      "codigo": "46294",
+      "descripcion": "Venta al por mayor de caña de azúcar"
+    },
+    {
+      "codigo": "46295",
+      "descripcion": "Venta al por mayor de flores, plantas y otros productos naturales"
+    },
+    {
+      "codigo": "46296",
+      "descripcion": "Venta al por mayor de productos agrícolas"
+    },
+    {
+      "codigo": "46297",
+      "descripcion": "Venta al por mayor de ganado bovino (vivo)"
+    },
+    {
+      "codigo": "46298",
+      "descripcion": "Venta al por mayor de animales porcinos, ovinos, caprino, canículas, apícolas, avícolas vivos"
+    },
+    {
+      "codigo": "46299",
+      "descripcion": "Venta de otras especies vivas del reino animal"
+    },
+    {
+      "codigo": "46301",
+      "descripcion": "Venta al por mayor de alimentos"
+    },
+    {
+      "codigo": "46302",
+      "descripcion": "Venta al por mayor de bebidas"
+    },
+    {
+      "codigo": "46303",
+      "descripcion": "Venta al por mayor de tabaco"
+    },
+    {
+      "codigo": "46371",
+      "descripcion": "Venta al por mayor de frutas, hortalizas (verduras), legumbres y tubérculos"
+    },
+    {
+      "codigo": "46372",
+      "descripcion": "Venta al por mayor de pollos, gallinas destazadas, pavos y otras aves"
+    },
+    {
+      "codigo": "46373",
+      "descripcion": "Venta al por mayor de carne bovina y porcina, productos de carne y embutidos"
+    },
+    {
+      "codigo": "46374",
+      "descripcion": "Venta al por mayor de huevos"
+    },
+    {
+      "codigo": "46375",
+      "descripcion": "Venta al por mayor de productos lácteos"
+    },
+    {
+      "codigo": "46376",
+      "descripcion": "Venta al por mayor de productos farináceos de panadería (pan dulce, cakes, respostería, etc.)"
+    },
+    {
+      "codigo": "46377",
+      "descripcion": "Venta al por mayor de pastas alimenticias, aceites y grasas comestibles vegetal y animal"
+    },
+    {
+      "codigo": "46378",
+      "descripcion": "Venta al por mayor de sal comestible"
+    },
+    {
+      "codigo": "46379",
+      "descripcion": "Venta al por mayor de azúcar"
+    },
+    {
+      "codigo": "46391",
+      "descripcion": "Venta al por mayor de abarrotes (vinos, licores, productos alimenticios envasados, etc.)"
+    },
+    {
+      "codigo": "46392",
+      "descripcion": "Venta al por mayor de aguas gaseosas"
+    },
+    {
+      "codigo": "46393",
+      "descripcion": "Venta al por mayor de agua purificada"
+    },
+    {
+      "codigo": "46394",
+      "descripcion": "Venta al por mayor de refrescos y otras bebidas, líquidas o en polvo"
+    },
+    {
+      "codigo": "46395",
+      "descripcion": "Venta al por mayor de cerveza y licores"
+    },
+    {
+      "codigo": "46396",
+      "descripcion": "Venta al por mayor de hielo"
+    },
+    {
+      "codigo": "46411",
+      "descripcion": "Venta al por mayor de hilados, tejidos y productos textiles de mercería"
+    },
+    {
+      "codigo": "46412",
+      "descripcion": "Venta al por mayor de artículos textiles excepto confecciones para el hogar"
+    },
+    {
+      "codigo": "46413",
+      "descripcion": "Venta al por mayor de confecciones textiles para el hogar"
+    },
+    {
+      "codigo": "46414",
+      "descripcion": "Venta al por mayor de prendas de vestir y accesorios de vestir"
+    },
+    {
+      "codigo": "46415",
+      "descripcion": "Venta al por mayor de ropa usada"
+    },
+    {
+      "codigo": "46416",
+      "descripcion": "Venta al por mayor de calzado"
+    },
+    {
+      "codigo": "46417",
+      "descripcion": "Venta al por mayor de artículos de marroquinería y talabartería"
+    },
+    {
+      "codigo": "46418",
+      "descripcion": "Venta al por mayor de artículos de peletería"
+    },
+    {
+      "codigo": "46419",
+      "descripcion": "Venta al por mayor de otros artículos textiles n.c.p."
+    },
+    {
+      "codigo": "46471",
+      "descripcion": "Venta al por mayor de instrumentos musicales"
+    },
+    {
+      "codigo": "46472",
+      "descripcion": "Venta al por mayor de colchones, almohadas, cojines, etc."
+    },
+    {
+      "codigo": "46473",
+      "descripcion": "Venta al por mayor de artículos de aluminio para el hogar y para otros usos"
+    },
+    {
+      "codigo": "46474",
+      "descripcion": "Venta al por mayor de depósitos y otros artículos plásticos para el hogar y otros usos, incluyendo los desechables de durapax y no desechables"
+    },
+    {
+      "codigo": "46475",
+      "descripcion": "Venta al por mayor de cámaras fotográficas, accesorios y materiales"
+    },
+    {
+      "codigo": "46482",
+      "descripcion": "Venta al por mayor de medicamentos, artículos y otros productos de uso veterinario"
+    },
+    {
+      "codigo": "46483",
+      "descripcion": "Venta al por mayor de productos y artículos de belleza y de uso personal"
+    },
+    {
+      "codigo": "46484",
+      "descripcion": "Venta de productos farmacéuticos y medicinales"
+    },
+    {
+      "codigo": "46491",
+      "descripcion": "Venta al por mayor de productos medicinales, cosméticos, perfumería y productos de limpieza"
+    },
+    {
+      "codigo": "46492",
+      "descripcion": "Venta al por mayor de relojes y artículos de joyería"
+    },
+    {
+      "codigo": "46493",
+      "descripcion": "Venta al por mayor de electrodomésticos y artículos del hogar excepto bazar; artículos de iluminación"
+    },
+    {
+      "codigo": "46494",
+      "descripcion": "Venta al por mayor de artículos de bazar y similares"
+    },
+    {
+      "codigo": "46495",
+      "descripcion": "Venta al por mayor de artículos de óptica"
+    },
+    {
+      "codigo": "46496",
+      "descripcion": "Venta al por mayor de revistas, periódicos, libros, artículos de librería y artículos de papel y cartón en general"
+    },
+    {
+      "codigo": "46497",
+      "descripcion": "Venta de artículos deportivos, juguetes y rodados"
+    },
+    {
+      "codigo": "46498",
+      "descripcion": "Venta al por mayor de productos usados para el hogar o el uso personal"
+    },
+    {
+      "codigo": "46499",
+      "descripcion": "Venta al por mayor de enseres domésticos y de uso personal n.c.p."
+    },
+    {
+      "codigo": "46500",
+      "descripcion": "Venta al por mayor de bicicletas, partes, accesorios y otros"
+    },
+    {
+      "codigo": "46510",
+      "descripcion": "Venta al por mayor de computadoras, equipo periférico y programas informáticos"
+    },
+    {
+      "codigo": "46520",
+      "descripcion": "Venta al por mayor de equipos de comunicación"
+    },
+    {
+      "codigo": "46530",
+      "descripcion": "Venta al por mayor de maquinaria y equipo agropecuario, accesorios, partes y suministros"
+    },
+    {
+      "codigo": "46590",
+      "descripcion": "Venta de equipos e instrumentos de uso profesional y científico y aparatos de medida y control"
+    },
+    {
+      "codigo": "46591",
+      "descripcion": "Venta al por mayor de maquinaria equipo, accesorios y materiales para la industria de la madera y sus productos"
+    },
+    {
+      "codigo": "46592",
+      "descripcion": "Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria gráfica y del papel, cartón y productos de papel y cartón"
+    },
+    {
+      "codigo": "46593",
+      "descripcion": "Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria de productos químicos, plástico y caucho"
+    },
+    {
+      "codigo": "46594",
+      "descripcion": "Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria metálica y de sus productos"
+    },
+    {
+      "codigo": "46595",
+      "descripcion": "Venta al por mayor de equipamiento para uso médico, odontológico, veterinario y servicios conexos"
+    },
+    {
+      "codigo": "46596",
+      "descripcion": "Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria de la alimentación"
+    },
+    {
+      "codigo": "46597",
+      "descripcion": "Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria textil, confecciones y cuero"
+    },
+    {
+      "codigo": "46598",
+      "descripcion": "Venta al por mayor de maquinaria, equipo y accesorios para la construcción y explotación de minas y canteras"
+    },
+    {
+      "codigo": "46599",
+      "descripcion": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes"
+    },
+    {
+      "codigo": "46610",
+      "descripcion": "Venta al por mayor de otros combustibles sólidos, líquidos, gaseosos y de productos conexos"
+    },
+    {
+      "codigo": "46612",
+      "descripcion": "Venta al por mayor de combustibles para automotores, aviones, barcos, maquinaria y otros"
+    },
+    {
+      "codigo": "46613",
+      "descripcion": "Venta al por mayor de lubricantes, grasas y otros aceites para automotores, maquinaria industrial, etc."
+    },
+    {
+      "codigo": "46614",
+      "descripcion": "Venta al por mayor de gas propano"
+    },
+    {
+      "codigo": "46615",
+      "descripcion": "Venta al por mayor de leña y carbón"
+    },
+    {
+      "codigo": "46620",
+      "descripcion": "Venta al por mayor de metales y minerales metalíferos"
+    },
+    {
+      "codigo": "46631",
+      "descripcion": "Venta al por mayor de puertas, ventanas, vitrinas y similares"
+    },
+    {
+      "codigo": "46632",
+      "descripcion": "Venta al por mayor de artículos de ferretería y pinturerías"
+    },
+    {
+      "codigo": "46633",
+      "descripcion": "Vidrierías"
+    },
+    {
+      "codigo": "46634",
+      "descripcion": "Venta al por mayor de maderas"
+    },
+    {
+      "codigo": "46639",
+      "descripcion": "Venta al por mayor de materiales para la construcción n.c.p."
+    },
+    {
+      "codigo": "46691",
+      "descripcion": "Venta al por mayor de sal industrial sin yodar"
+    },
+    {
+      "codigo": "46692",
+      "descripcion": "Venta al por mayor de productos intermedios y desechos de origen textil"
+    },
+    {
+      "codigo": "46693",
+      "descripcion": "Venta al por mayor de productos intermedios y desechos de origen metálico"
+    },
+    {
+      "codigo": "46694",
+      "descripcion": "Venta al por mayor de productos intermedios y desechos de papel y cartón"
+    },
+    {
+      "codigo": "46695",
+      "descripcion": "Venta al por mayor fertilizantes, abonos, agroquímicos y productos similares"
+    },
+    {
+      "codigo": "46696",
+      "descripcion": "Venta al por mayor de productos intermedios y desechos de origen plástico"
+    },
+    {
+      "codigo": "46697",
+      "descripcion": "Venta al por mayor de tintas para imprenta, productos curtientes y materias y productos colorantes"
+    },
+    {
+      "codigo": "46698",
+      "descripcion": "Venta de productos intermedios y desechos de origen químico y de caucho"
+    },
+    {
+      "codigo": "46699",
+      "descripcion": "Venta al por mayor de productos intermedios y desechos ncp"
+    },
+    {
+      "codigo": "46701",
+      "descripcion": "Venta de algodón en oro"
+    },
+    {
+      "codigo": "46900",
+      "descripcion": "Venta al por mayor de otros productos"
+    },
+    {
+      "codigo": "46901",
+      "descripcion": "Venta al por mayor de cohetes y otros productos pirotécnicos"
+    },
+    {
+      "codigo": "46902",
+      "descripcion": "Venta al por mayor de artículos diversos para consumo humano"
+    },
+    {
+      "codigo": "46903",
+      "descripcion": "Venta al por mayor de armas de fuego, municiones y accesorios"
+    },
+    {
+      "codigo": "46904",
+      "descripcion": "Venta al por mayor de toldos y tiendas de campaña de cualquier material"
+    },
+    {
+      "codigo": "46905",
+      "descripcion": "Venta al por mayor de exhibidores publicitarios y rótulos"
+    },
+    {
+      "codigo": "46906",
+      "descripcion": "Venta al por mayor de artículos promocionales diversos"
+    },
+    {
+      "codigo": "47111",
+      "descripcion": "Venta en supermercados"
+    },
+    {
+      "codigo": "47112",
+      "descripcion": "Venta en tiendas de artículos de primera necesidad"
+    },
+    {
+      "codigo": "47119",
+      "descripcion": "Almacenes (venta de diversos artículos)"
+    },
+    {
+      "codigo": "47120",
+      "descripcion": "Almacenes (venta de diversos artículos), y venta de vehículos automotores y motocicletas"
+    },
+    {
+      "codigo": "47190",
+      "descripcion": "Venta al por menor de otros productos en comercios no especializados"
+    },
+    {
+      "codigo": "47199",
+      "descripcion": "Venta de establecimientos no especializados con surtido compuesto principalmente de alimentos, bebidas y tabaco"
+    },
+    {
+      "codigo": "47211",
+      "descripcion": "Venta al por menor de frutas y hortalizas"
+    },
+    {
+      "codigo": "47212",
+      "descripcion": "Venta al por menor de carnes, embutidos y productos de granja"
+    },
+    {
+      "codigo": "47213",
+      "descripcion": "Venta al por menor de pescado y mariscos"
+    },
+    {
+      "codigo": "47214",
+      "descripcion": "Venta al por menor de productos lácteos"
+    },
+    {
+      "codigo": "47215",
+      "descripcion": "Venta al por menor de productos de panadería, repostería y galletas"
+    },
+    {
+      "codigo": "47216",
+      "descripcion": "Venta al por menor de huevos"
+    },
+    {
+      "codigo": "47217",
+      "descripcion": "Venta al por menor de carnes y productos cárnicos"
+    },
+    {
+      "codigo": "47218",
+      "descripcion": "Venta al por menor de granos básicos y otros"
+    },
+    {
+      "codigo": "47219",
+      "descripcion": "Venta al por menor de alimentos n.c.p."
+    },
+    {
+      "codigo": "47221",
+      "descripcion": "Venta al por menor de hielo"
+    },
+    {
+      "codigo": "47223",
+      "descripcion": "Venta de bebidas no alcohólicas, para su consumo fuera del establecimiento"
+    },
+    {
+      "codigo": "47224",
+      "descripcion": "Venta de bebidas alcohólicas, para su consumo fuera del establecimiento"
+    },
+    {
+      "codigo": "47225",
+      "descripcion": "Venta de bebidas alcohólicas para su consumo dentro del establecimiento"
+    },
+    {
+      "codigo": "47230",
+      "descripcion": "Venta al por menor de tabaco"
+    },
+    {
+      "codigo": "47300",
+      "descripcion": "Venta de combustibles, lubricantes y otros (gasolineras)"
+    },
+    {
+      "codigo": "47411",
+      "descripcion": "Venta al por menor de computadoras y equipo periférico"
+    },
+    {
+      "codigo": "47412",
+      "descripcion": "Venta de equipo y accesorios de telecomunicación"
+    },
+    {
+      "codigo": "47420",
+      "descripcion": "Venta al por menor de equipo de audio y video"
+    },
+    {
+      "codigo": "47510",
+      "descripcion": "Venta al por menor de hilados, tejidos y productos textiles de mercería; confecciones para el hogar y textiles n.c.p."
+    },
+    {
+      "codigo": "47521",
+      "descripcion": "Venta al por menor de productos de madera"
+    },
+    {
+      "codigo": "47522",
+      "descripcion": "Venta al por menor de artículos de ferretería"
+    },
+    {
+      "codigo": "47523",
+      "descripcion": "Venta al por menor de productos de pinturerías"
+    },
+    {
+      "codigo": "47524",
+      "descripcion": "Venta al por menor en vidrierías"
+    },
+    {
+      "codigo": "47529",
+      "descripcion": "Venta al por menor de materiales de construcción y artículos conexos"
+    },
+    {
+      "codigo": "47530",
+      "descripcion": "Venta al por menor de tapices, alfombras y revestimientos de paredes y pisos en comercios especializados"
+    },
+    {
+      "codigo": "47591",
+      "descripcion": "Venta al por menor de muebles"
+    },
+    {
+      "codigo": "47592",
+      "descripcion": "Venta al por menor de artículos de bazar"
+    },
+    {
+      "codigo": "47593",
+      "descripcion": "Venta al por menor de aparatos electrodomésticos, repuestos y accesorios"
+    },
+    {
+      "codigo": "47594",
+      "descripcion": "Venta al por menor de artículos eléctricos y de iluminación"
+    },
+    {
+      "codigo": "47598",
+      "descripcion": "Venta al por menor de instrumentos musicales"
+    },
+    {
+      "codigo": "47610",
+      "descripcion": "Venta al por menor de libros, periódicos y artículos de papelería en comercios especializados"
+    },
+    {
+      "codigo": "47620",
+      "descripcion": "Venta al por menor de discos láser, cassettes, cintas de video y otros"
+    },
+    {
+      "codigo": "47630",
+      "descripcion": "Venta al por menor de productos y equipos de deporte"
+    },
+    {
+      "codigo": "47631",
+      "descripcion": "Venta al por menor de bicicletas, accesorios y repuestos"
+    },
+    {
+      "codigo": "47640",
+      "descripcion": "Venta al por menor de juegos y juguetes en comercios especializados"
+    },
+    {
+      "codigo": "47711",
+      "descripcion": "Venta al por menor de prendas de vestir y accesorios de vestir"
+    },
+    {
+      "codigo": "47712",
+      "descripcion": "Venta al por menor de calzado"
+    },
+    {
+      "codigo": "47713",
+      "descripcion": "Venta al por menor de artículos de peletería, marroquinería y talabartería"
+    },
+    {
+      "codigo": "47721",
+      "descripcion": "Venta al por menor de medicamentos farmacéuticos y otros materiales y artículos de uso médico, odontológico y veterinario"
+    },
+    {
+      "codigo": "47722",
+      "descripcion": "Venta al por menor de productos cosméticos y de tocador"
+    },
+    {
+      "codigo": "47731",
+      "descripcion": "Venta al por menor de productos de joyería, bisutería, óptica, relojería"
+    },
+    {
+      "codigo": "47732",
+      "descripcion": "Venta al por menor de plantas, semillas, animales y artículos conexos"
+    },
+    {
+      "codigo": "47733",
+      "descripcion": "Venta al por menor de combustibles de uso doméstico (gas propano y gas licuado)"
+    },
+    {
+      "codigo": "47734",
+      "descripcion": "Venta al por menor de artesanías, artículos cerámicos y recuerdos en general"
+    },
+    {
+      "codigo": "47735",
+      "descripcion": "Venta al por menor de ataúdes, lápidas y cruces, trofeos, artículos religiosos en general"
+    },
+    {
+      "codigo": "47736",
+      "descripcion": "Venta al por menor de armas de fuego, municiones y accesorios"
+    },
+    {
+      "codigo": "47737",
+      "descripcion": "Venta al por menor de artículos de cohetería y pirotécnicos"
+    },
+    {
+      "codigo": "47738",
+      "descripcion": "Venta al por menor de artículos desechables de uso personal y doméstico (servilletas, papel higiénico, pañales, toallas sanitarias, etc.)"
+    },
+    {
+      "codigo": "47739",
+      "descripcion": "Venta al por menor de otros productos n.c.p."
+    },
+    {
+      "codigo": "47741",
+      "descripcion": "Venta al por menor de artículos usados"
+    },
+    {
+      "codigo": "47742",
+      "descripcion": "Venta al por menor de textiles y confecciones usados"
+    },
+    {
+      "codigo": "47743",
+      "descripcion": "Venta al por menor de libros, revistas, papel y cartón usados"
+    },
+    {
+      "codigo": "47749",
+      "descripcion": "Venta al por menor de productos usados n.c.p."
+    },
+    {
+      "codigo": "47811",
+      "descripcion": "Venta al por menor de frutas, verduras y hortalizas"
+    },
+    {
+      "codigo": "47814",
+      "descripcion": "Venta al por menor de productos lácteos"
+    },
+    {
+      "codigo": "47815",
+      "descripcion": "Venta al por menor de productos de panadería, galletas y similares"
+    },
+    {
+      "codigo": "47816",
+      "descripcion": "Venta al por menor de bebidas"
+    },
+    {
+      "codigo": "47818",
+      "descripcion": "Venta al por menor en tiendas de mercado y puestos"
+    },
+    {
+      "codigo": "47821",
+      "descripcion": "Venta al por menor de hilados, tejidos y productos textiles de mercería en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47822",
+      "descripcion": "Venta al por menor de artículos textiles excepto confecciones para el hogar en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47823",
+      "descripcion": "Venta al por menor de confecciones textiles para el hogar en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47824",
+      "descripcion": "Venta al por menor de prendas de vestir, accesorios de vestir y similares en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47825",
+      "descripcion": "Venta al por menor de ropa usada"
+    },
+    {
+      "codigo": "47826",
+      "descripcion": "Venta al por menor de calzado, artículos de marroquinería y talabartería en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47827",
+      "descripcion": "Venta al por menor de artículos de marroquinería y talabartería en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47829",
+      "descripcion": "Venta al por menor de artículos textiles ncp en puestos de mercados y ferias"
+    },
+    {
+      "codigo": "47891",
+      "descripcion": "Venta al por menor de animales, flores y productos conexos en puestos de feria y mercados"
+    },
+    {
+      "codigo": "47892",
+      "descripcion": "Venta al por menor de productos medicinales, cosméticos, de tocador y de limpieza en puestos de ferias y mercados"
+    },
+    {
+      "codigo": "47893",
+      "descripcion": "Venta al por menor de artículos de bazar en puestos de ferias y mercados"
+    },
+    {
+      "codigo": "47894",
+      "descripcion": "Venta al por menor de artículos de papel, envases, libros, revistas y conexos en puestos de feria y mercados"
+    },
+    {
+      "codigo": "47895",
+      "descripcion": "Venta al por menor de materiales de construcción, electrodomésticos, accesorios para autos y similares en puestos de feria y mercados"
+    },
+    {
+      "codigo": "47896",
+      "descripcion": "Venta al por menor de equipos accesorios para las comunicaciones en puestos de feria y mercados"
+    },
+    {
+      "codigo": "47899",
+      "descripcion": "Venta al por menor en puestos de ferias y mercados n.c.p."
+    },
+    {
+      "codigo": "47910",
+      "descripcion": "Venta al por menor por correo o Internet"
+    },
+    {
+      "codigo": "47990",
+      "descripcion": "Otros tipos de venta al por menor no realizada, en almacenes, puestos de venta o mercado"
+    },
+    {
+      "codigo": "49110",
+      "descripcion": "Transporte interurbano de pasajeros por ferrocarril"
+    },
+    {
+      "codigo": "49120",
+      "descripcion": "Transporte de carga por ferrocarril"
+    },
+    {
+      "codigo": "49211",
+      "descripcion": "Transporte de pasajeros urbanos e interurbano mediante buses"
+    },
+    {
+      "codigo": "49212",
+      "descripcion": "Transporte de pasajeros interdepartamental mediante microbuses"
+    },
+    {
+      "codigo": "49213",
+      "descripcion": "Transporte de pasajeros urbanos e interurbano mediante microbuses"
+    },
+    {
+      "codigo": "49214",
+      "descripcion": "Transporte de pasajeros interdepartamental mediante buses"
+    },
+    {
+      "codigo": "49221",
+      "descripcion": "Transporte internacional de pasajeros"
+    },
+    {
+      "codigo": "49222",
+      "descripcion": "Transporte de pasajeros mediante taxis y autos con chofer"
+    },
+    {
+      "codigo": "49223",
+      "descripcion": "Transporte escolar"
+    },
+    {
+      "codigo": "49225",
+      "descripcion": "Transporte de pasajeros para excursiones"
+    },
+    {
+      "codigo": "49226",
+      "descripcion": "Servicios de transporte de personal"
+    },
+    {
+      "codigo": "49229",
+      "descripcion": "Transporte de pasajeros por vía terrestre ncp"
+    },
+    {
+      "codigo": "49231",
+      "descripcion": "Transporte de carga urbano"
+    },
+    {
+      "codigo": "49232",
+      "descripcion": "Transporte nacional de carga"
+    },
+    {
+      "codigo": "49233",
+      "descripcion": "Transporte de carga internacional"
+    },
+    {
+      "codigo": "49234",
+      "descripcion": "Servicios de mudanza"
+    },
+    {
+      "codigo": "49235",
+      "descripcion": "Alquiler de vehículos de carga con conductor"
+    },
+    {
+      "codigo": "49300",
+      "descripcion": "Transporte por oleoducto o gasoducto"
+    },
+    {
+      "codigo": "50110",
+      "descripcion": "Transporte de pasajeros marítimo y de cabotaje"
+    },
+    {
+      "codigo": "50120",
+      "descripcion": "Transporte de carga marítimo y de cabotaje"
+    },
+    {
+      "codigo": "50211",
+      "descripcion": "Transporte de pasajeros por vías de navegación interiores"
+    },
+    {
+      "codigo": "50212",
+      "descripcion": "Alquiler de equipo de transporte de pasajeros por vías de navegación interior con conductor"
+    },
+    {
+      "codigo": "50220",
+      "descripcion": "Transporte de carga por vías de navegación interiores"
+    },
+    {
+      "codigo": "51100",
+      "descripcion": "Transporte aéreo de pasajeros"
+    },
+    {
+      "codigo": "51201",
+      "descripcion": "Transporte de carga por vía aérea"
+    },
+    {
+      "codigo": "51202",
+      "descripcion": "Alquiler de equipo de aerotransporte con operadores para el propósito de transportar carga"
+    },
+    {
+      "codigo": "52101",
+      "descripcion": "Alquiler de instalaciones de almacenamiento en zonas francas"
+    },
+    {
+      "codigo": "52102",
+      "descripcion": "Alquiler de silos para conservación y almacenamiento de granos"
+    },
+    {
+      "codigo": "52103",
+      "descripcion": "Alquiler de instalaciones con refrigeración para almacenamiento y conservación de alimentos y otros productos"
+    },
+    {
+      "codigo": "52109",
+      "descripcion": "Alquiler de bodegas para almacenamiento y depósito n.c.p."
+    },
+    {
+      "codigo": "52211",
+      "descripcion": "Servicio de garaje y estacionamiento"
+    },
+    {
+      "codigo": "52212",
+      "descripcion": "Servicios de terminales para el transporte por vía terrestre"
+    },
+    {
+      "codigo": "52219",
+      "descripcion": "Servicios para el transporte por vía terrestre n.c.p."
+    },
+    {
+      "codigo": "52220",
+      "descripcion": "Servicios para el transporte acuático"
+    },
+    {
+      "codigo": "52230",
+      "descripcion": "Servicios para el transporte aéreo"
+    },
+    {
+      "codigo": "52240",
+      "descripcion": "Manipulación de carga"
+    },
+    {
+      "codigo": "52290",
+      "descripcion": "Servicios para el transporte ncp"
+    },
+    {
+      "codigo": "52291",
+      "descripcion": "Agencias de tramitaciones aduanales"
+    },
+    {
+      "codigo": "53100",
+      "descripcion": "Servicios de correo nacional"
+    },
+    {
+      "codigo": "53200",
+      "descripcion": "Actividades de correo distintas a las actividades postales nacionales"
+    },
+    {
+      "codigo": "53201",
+      "descripcion": "Agencia privada de correo y encomiendas"
+    },
+    {
+      "codigo": "55101",
+      "descripcion": "Actividades de alojamiento para estancias cortas"
+    },
+    {
+      "codigo": "55102",
+      "descripcion": "Hoteles"
+    },
+    {
+      "codigo": "55200",
+      "descripcion": "Actividades de campamentos, parques de vehículos de recreo y parques de caravanas"
+    },
+    {
+      "codigo": "55900",
+      "descripcion": "Alojamiento n.c.p."
+    },
+    {
+      "codigo": "56101",
+      "descripcion": "Restaurantes"
+    },
+    {
+      "codigo": "56106",
+      "descripcion": "Pupusería"
+    },
+    {
+      "codigo": "56107",
+      "descripcion": "Actividades varias de restaurantes"
+    },
+    {
+      "codigo": "56108",
+      "descripcion": "Comedores"
+    },
+    {
+      "codigo": "56109",
+      "descripcion": "Merenderos ambulantes"
+    },
+    {
+      "codigo": "56210",
+      "descripcion": "Preparación de comida para eventos especiales"
+    },
+    {
+      "codigo": "56291",
+      "descripcion": "Servicios de provisión de comidas por contrato"
+    },
+    {
+      "codigo": "56292",
+      "descripcion": "Servicios de concesión de cafetines y chalet en empresas e instituciones"
+    },
+    {
+      "codigo": "56299",
+      "descripcion": "Servicios de preparación de comidas ncp"
+    },
+    {
+      "codigo": "56301",
+      "descripcion": "Servicio de expendio de bebidas en salones y bares"
+    },
+    {
+      "codigo": "56302",
+      "descripcion": "Servicio de expendio de bebidas en puestos callejeros, mercados y ferias"
+    },
+    {
+      "codigo": "58110",
+      "descripcion": "Edición de libros, folletos, partituras y otras ediciones distintas a estas"
+    },
+    {
+      "codigo": "58120",
+      "descripcion": "Edición de directorios y listas de correos"
+    },
+    {
+      "codigo": "58130",
+      "descripcion": "Edición de periódicos, revistas y otras publicaciones periódicas"
+    },
+    {
+      "codigo": "58190",
+      "descripcion": "Otras actividades de edición"
+    },
+    {
+      "codigo": "58200",
+      "descripcion": "Edición de programas informáticos (software)"
+    },
+    {
+      "codigo": "59110",
+      "descripcion": "Actividades de producción cinematográfica"
+    },
+    {
+      "codigo": "59120",
+      "descripcion": "Actividades de post producción de películas, videos y programas de televisión"
+    },
+    {
+      "codigo": "59130",
+      "descripcion": "Actividades de distribución de películas cinematográficas, videos y programas de televisión"
+    },
+    {
+      "codigo": "59140",
+      "descripcion": "Actividades de exhibición de películas cinematográficas y cintas de vídeo"
+    },
+    {
+      "codigo": "59200",
+      "descripcion": "Actividades de edición y grabación de música"
+    },
+    {
+      "codigo": "60100",
+      "descripcion": "Servicios de difusiones de radio"
+    },
+    {
+      "codigo": "60201",
+      "descripcion": "Actividades de programación y difusión de televisión abierta"
+    },
+    {
+      "codigo": "60202",
+      "descripcion": "Actividades de suscripción y difusión de televisión por cable y/o suscripción"
+    },
+    {
+      "codigo": "60299",
+      "descripcion": "Servicios de televisión, incluye televisión por cable"
+    },
+    {
+      "codigo": "60900",
+      "descripcion": "Programación y transmisión de radio y televisión"
+    },
+    {
+      "codigo": "61101",
+      "descripcion": "Servicio de telefonía"
+    },
+    {
+      "codigo": "61102",
+      "descripcion": "Servicio de Internet"
+    },
+    {
+      "codigo": "61103",
+      "descripcion": "Servicio de telefonía fija"
+    },
+    {
+      "codigo": "61109",
+      "descripcion": "Servicio de Internet n.c.p."
+    },
+    {
+      "codigo": "61201",
+      "descripcion": "Servicios de telefonía celular"
+    },
+    {
+      "codigo": "61202",
+      "descripcion": "Servicios de Internet inalámbrico"
+    },
+    {
+      "codigo": "61209",
+      "descripcion": "Servicios de telecomunicaciones inalámbrico n.c.p."
+    },
+    {
+      "codigo": "61301",
+      "descripcion": "Telecomunicaciones satelitales"
+    },
+    {
+      "codigo": "61309",
+      "descripcion": "Comunicación vía satélite n.c.p."
+    },
+    {
+      "codigo": "61900",
+      "descripcion": "Actividades de telecomunicación n.c.p."
+    },
+    {
+      "codigo": "62010",
+      "descripcion": "Programación Informática"
+    },
+    {
+      "codigo": "62020",
+      "descripcion": "Consultorías y gestión de servicios informáticos"
+    },
+    {
+      "codigo": "62090",
+      "descripcion": "Otras actividades de tecnología de información y servicios de computadora"
+    },
+    {
+      "codigo": "63110",
+      "descripcion": "Procesamiento de datos y Actividades relacionadas"
+    },
+    {
+      "codigo": "63120",
+      "descripcion": "Portales WEB"
+    },
+    {
+      "codigo": "63910",
+      "descripcion": "Servicios de Agencias de Noticias"
+    },
+    {
+      "codigo": "63990",
+      "descripcion": "Otros servicios de información n.c.p."
+    },
+    {
+      "codigo": "64110",
+      "descripcion": "Servicios provistos por el Banco Central de El salvador"
+    },
+    {
+      "codigo": "64190",
+      "descripcion": "Bancos"
+    },
+    {
+      "codigo": "64192",
+      "descripcion": "Entidades dedicadas al envío de remesas"
+    },
+    {
+      "codigo": "64199",
+      "descripcion": "Otras entidades financieras"
+    },
+    {
+      "codigo": "64200",
+      "descripcion": "Actividades de sociedades de cartera"
+    },
+    {
+      "codigo": "64300",
+      "descripcion": "Fideicomisos, fondos y otras fuentes de financiamiento"
+    },
+    {
+      "codigo": "64910",
+      "descripcion": "Arrendamientos financieros"
+    },
+    {
+      "codigo": "64920",
+      "descripcion": "Asociaciones cooperativas de ahorro y crédito dedicadas a la intermediación financiera"
+    },
+    {
+      "codigo": "64921",
+      "descripcion": "Instituciones emisoras de tarjetas de crédito y otros"
+    },
+    {
+      "codigo": "64922",
+      "descripcion": "Tipos de crédito ncp"
+    },
+    {
+      "codigo": "64928",
+      "descripcion": "Prestamistas y casas de empeño"
+    },
+    {
+      "codigo": "64990",
+      "descripcion": "Actividades de servicios financieros, excepto la financiación de planes de seguros y de pensiones n.c.p."
+    },
+    {
+      "codigo": "65110",
+      "descripcion": "Planes de seguros de vida"
+    },
+    {
+      "codigo": "65120",
+      "descripcion": "Planes de seguro excepto de vida"
+    },
+    {
+      "codigo": "65199",
+      "descripcion": "Seguros generales de todo tipo"
+    },
+    {
+      "codigo": "65200",
+      "descripcion": "Planes se seguro"
+    },
+    {
+      "codigo": "65300",
+      "descripcion": "Planes de pensiones"
+    },
+    {
+      "codigo": "66110",
+      "descripcion": "Administración de mercados financieros (Bolsa de Valores)"
+    },
+    {
+      "codigo": "66120",
+      "descripcion": "Actividades bursátiles (Corredores de Bolsa)"
+    },
+    {
+      "codigo": "66190",
+      "descripcion": "Actividades auxiliares de la intermediación financiera ncp"
+    },
+    {
+      "codigo": "66210",
+      "descripcion": "Evaluación de riesgos y daños"
+    },
+    {
+      "codigo": "66220",
+      "descripcion": "Actividades de agentes y corredores de seguros"
+    },
+    {
+      "codigo": "66290",
+      "descripcion": "Otras actividades auxiliares de seguros y fondos de pensiones"
+    },
+    {
+      "codigo": "66300",
+      "descripcion": "Actividades de administración de fondos"
+    },
+    {
+      "codigo": "68101",
+      "descripcion": "Servicio de alquiler y venta de lotes en cementerios"
+    },
+    {
+      "codigo": "68109",
+      "descripcion": "Actividades inmobiliarias realizadas con bienes propios o arrendados n.c.p."
+    },
+    {
+      "codigo": "68200",
+      "descripcion": "Actividades Inmobiliarias Realizadas a Cambio de una Retribución o por Contrata"
+    },
+    {
+      "codigo": "69100",
+      "descripcion": "Actividades jurídicas"
+    },
+    {
+      "codigo": "69200",
+      "descripcion": "Actividades de contabilidad, teneduría de libros y auditoría; asesoramiento en materia de impuestos"
+    },
+    {
+      "codigo": "70100",
+      "descripcion": "Actividades de oficinas centrales de sociedades de cartera"
+    },
+    {
+      "codigo": "70200",
+      "descripcion": "Actividades de consultoría en gestión empresarial"
+    },
+    {
+      "codigo": "71101",
+      "descripcion": "Servicios de arquitectura y planificación urbana y servicios conexos"
+    },
+    {
+      "codigo": "71102",
+      "descripcion": "Servicios de ingeniería"
+    },
+    {
+      "codigo": "71103",
+      "descripcion": "Servicios de agrimensura, topografía, cartografía, prospección y geofísica y servicios conexos"
+    },
+    {
+      "codigo": "71200",
+      "descripcion": "Ensayos y análisis técnicos"
+    },
+    {
+      "codigo": "72100",
+      "descripcion": "Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería"
+    },
+    {
+      "codigo": "72199",
+      "descripcion": "Investigaciones científicas"
+    },
+    {
+      "codigo": "72200",
+      "descripcion": "Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades científica y desarrollo"
+    },
+    {
+      "codigo": "73100",
+      "descripcion": "Publicidad"
+    },
+    {
+      "codigo": "73200",
+      "descripcion": "Investigación de mercados y realización de encuestas de opinión pública"
+    },
+    {
+      "codigo": "74100",
+      "descripcion": "Actividades de diseño especializado"
+    },
+    {
+      "codigo": "74200",
+      "descripcion": "Actividades de fotografía"
+    },
+    {
+      "codigo": "74900",
+      "descripcion": "Servicios profesionales y científicos ncp"
+    },
+    {
+      "codigo": "75000",
+      "descripcion": "Actividades veterinarias"
+    },
+    {
+      "codigo": "77101",
+      "descripcion": "Alquiler de equipo de transporte terrestre"
+    },
+    {
+      "codigo": "77102",
+      "descripcion": "Alquiler de equipo de transporte acuático"
+    },
+    {
+      "codigo": "77103",
+      "descripcion": "Alquiler de equipo de transporte por vía aérea"
+    },
+    {
+      "codigo": "77210",
+      "descripcion": "Alquiler y arrendamiento de equipo de recreo y deportivo"
+    },
+    {
+      "codigo": "77220",
+      "descripcion": "Alquiler de cintas de video y discos"
+    },
+    {
+      "codigo": "77290",
+      "descripcion": "Alquiler de otros efectos personales y enseres domésticos"
+    },
+    {
+      "codigo": "77300",
+      "descripcion": "Alquiler de maquinaria y equipo"
+    },
+    {
+      "codigo": "77400",
+      "descripcion": "Arrendamiento de productos de propiedad intelectual"
+    },
+    {
+      "codigo": "78100",
+      "descripcion": "Obtención y dotación de personal"
+    },
+    {
+      "codigo": "78200",
+      "descripcion": "Actividades de las agencias de trabajo temporal"
+    },
+    {
+      "codigo": "78300",
+      "descripcion": "Dotación de recursos humanos y gestión; gestión de las funciones de recursos humanos"
+    },
+    {
+      "codigo": "79110",
+      "descripcion": "Actividades de agencias de viajes y organizadores de viajes; actividades de asistencia a turistas"
+    },
+    {
+      "codigo": "79120",
+      "descripcion": "Actividades de los operadores turísticos"
+    },
+    {
+      "codigo": "79900",
+      "descripcion": "Otros servicios de reservas y actividades relacionadas"
+    },
+    {
+      "codigo": "80100",
+      "descripcion": "Servicios de seguridad privados"
+    },
+    {
+      "codigo": "80201",
+      "descripcion": "Actividades de servicios de sistemas de seguridad"
+    },
+    {
+      "codigo": "80202",
+      "descripcion": "Actividades para la prestación de sistemas de seguridad"
+    },
+    {
+      "codigo": "80300",
+      "descripcion": "Actividades de investigación"
+    },
+    {
+      "codigo": "81100",
+      "descripcion": "Actividades combinadas de mantenimiento de edificios e instalaciones"
+    },
+    {
+      "codigo": "81210",
+      "descripcion": "Limpieza general de edificios"
+    },
+    {
+      "codigo": "81290",
+      "descripcion": "Otras actividades combinadas de mantenimiento de edificios e instalaciones ncp"
+    },
+    {
+      "codigo": "81300",
+      "descripcion": "Servicio de jardinería"
+    },
+    {
+      "codigo": "82110",
+      "descripcion": "Servicios administrativos de oficinas"
+    },
+    {
+      "codigo": "82190",
+      "descripcion": "Servicio de fotocopiado y similares, excepto en imprentas"
+    },
+    {
+      "codigo": "82200",
+      "descripcion": "Actividades de las centrales de llamadas (call center)"
+    },
+    {
+      "codigo": "82300",
+      "descripcion": "Organización de convenciones y ferias de negocios"
+    },
+    {
+      "codigo": "82910",
+      "descripcion": "Actividades de agencias de cobro y oficinas de crédito"
+    },
+    {
+      "codigo": "82921",
+      "descripcion": "Servicios de envase y empaque de productos alimenticios"
+    },
+    {
+      "codigo": "82922",
+      "descripcion": "Servicios de envase y empaque de productos medicinales"
+    },
+    {
+      "codigo": "82929",
+      "descripcion": "Servicio de envase y empaque ncp"
+    },
+    {
+      "codigo": "82990",
+      "descripcion": "Actividades de apoyo empresariales ncp"
+    },
+    {
+      "codigo": "84110",
+      "descripcion": "Actividades de la Administración Pública en general"
+    },
+    {
+      "codigo": "84111",
+      "descripcion": "Alcaldías Municipales"
+    },
+    {
+      "codigo": "84120",
+      "descripcion": "Regulación de las actividades de prestación de servicios sanitarios, educativos, culturales y otros servicios sociales, excepto seguridad social"
+    },
+    {
+      "codigo": "84130",
+      "descripcion": "Regulación y facilitación de la actividad económica"
+    },
+    {
+      "codigo": "84210",
+      "descripcion": "Actividades de administración y funcionamiento del Ministerio de Relaciones Exteriores"
+    },
+    {
+      "codigo": "84220",
+      "descripcion": "Actividades de defensa"
+    },
+    {
+      "codigo": "84230",
+      "descripcion": "Actividades de mantenimiento del orden público y de seguridad"
+    },
+    {
+      "codigo": "84300",
+      "descripcion": "Actividades de planes de seguridad social de afiliación obligatoria"
+    },
+    {
+      "codigo": "85101",
+      "descripcion": "Guardería educativa"
+    },
+    {
+      "codigo": "85102",
+      "descripcion": "Enseñanza preescolar o parvularia"
+    },
+    {
+      "codigo": "85103",
+      "descripcion": "Enseñanza primaria"
+    },
+    {
+      "codigo": "85104",
+      "descripcion": "Servicio de educación preescolar y primaria integrada"
+    },
+    {
+      "codigo": "85211",
+      "descripcion": "Enseñanza secundaria tercer ciclo (7°, 8° y 9°)"
+    },
+    {
+      "codigo": "85212",
+      "descripcion": "Enseñanza secundaria de formación general bachillerato"
+    },
+    {
+      "codigo": "85221",
+      "descripcion": "Enseñanza secundaria de formación técnica y profesional"
+    },
+    {
+      "codigo": "85222",
+      "descripcion": "Enseñanza secundaria de formación técnica y profesional integrada con enseñanza primaria"
+    },
+    {
+      "codigo": "85301",
+      "descripcion": "Enseñanza superior universitaria"
+    },
+    {
+      "codigo": "85302",
+      "descripcion": "Enseñanza superior no universitaria"
+    },
+    {
+      "codigo": "85303",
+      "descripcion": "Enseñanza superior integrada a educación secundaria y/o primaria"
+    },
+    {
+      "codigo": "85410",
+      "descripcion": "Educación deportiva y recreativa"
+    },
+    {
+      "codigo": "85420",
+      "descripcion": "Educación cultural"
+    },
+    {
+      "codigo": "85490",
+      "descripcion": "Otros tipos de enseñanza n.c.p."
+    },
+    {
+      "codigo": "85499",
+      "descripcion": "Enseñanza formal"
+    },
+    {
+      "codigo": "85500",
+      "descripcion": "Servicios de apoyo a la enseñanza"
+    },
+    {
+      "codigo": "86100",
+      "descripcion": "Actividades de hospitales"
+    },
+    {
+      "codigo": "86201",
+      "descripcion": "Clínicas médicas"
+    },
+    {
+      "codigo": "86202",
+      "descripcion": "Servicios de Odontología"
+    },
+    {
+      "codigo": "86203",
+      "descripcion": "Servicios médicos"
+    },
+    {
+      "codigo": "86901",
+      "descripcion": "Servicios de análisis y estudios de diagnóstico"
+    },
+    {
+      "codigo": "86902",
+      "descripcion": "Actividades de atención de la salud humana"
+    },
+    {
+      "codigo": "86909",
+      "descripcion": "Otros Servicio relacionados con la salud ncp"
+    },
+    {
+      "codigo": "87100",
+      "descripcion": "Residencias de ancianos con atención de enfermería"
+    },
+    {
+      "codigo": "87200",
+      "descripcion": "Instituciones dedicadas al tratamiento del retraso mental, problemas de salud mental y el uso indebido de sustancias nocivas"
+    },
+    {
+      "codigo": "87300",
+      "descripcion": "Instituciones dedicadas al cuidado de ancianos y discapacitados"
+    },
+    {
+      "codigo": "87900",
+      "descripcion": "Actividades de asistencia a niños y jóvenes"
+    },
+    {
+      "codigo": "87901",
+      "descripcion": "Otras actividades de atención en instituciones"
+    },
+    {
+      "codigo": "88100",
+      "descripcion": "Actividades de asistencia sociales sin alojamiento para ancianos y discapacitados"
+    },
+    {
+      "codigo": "88900",
+      "descripcion": "servicios sociales sin alojamiento ncp"
+    },
+    {
+      "codigo": "90000",
+      "descripcion": "Actividades creativas artísticas y de esparcimiento"
+    },
+    {
+      "codigo": "91010",
+      "descripcion": "Actividades de bibliotecas y archivos"
+    },
+    {
+      "codigo": "91020",
+      "descripcion": "Actividades de museos y preservación de lugares y edificios históricos"
+    },
+    {
+      "codigo": "91030",
+      "descripcion": "Actividades de jardines botánicos, zoológicos y de reservas naturales"
+    },
+    {
+      "codigo": "92000",
+      "descripcion": "Actividades de juegos y apuestas"
+    },
+    {
+      "codigo": "93110",
+      "descripcion": "Gestión de instalaciones deportivas"
+    },
+    {
+      "codigo": "93120",
+      "descripcion": "Actividades de clubes deportivos"
+    },
+    {
+      "codigo": "93190",
+      "descripcion": "Otras actividades deportivas"
+    },
+    {
+      "codigo": "93210",
+      "descripcion": "Actividades de parques de atracciones y parques temáticos"
+    },
+    {
+      "codigo": "93291",
+      "descripcion": "Discotecas y salas de baile"
+    },
+    {
+      "codigo": "93298",
+      "descripcion": "Centros vacacionales"
+    },
+    {
+      "codigo": "93299",
+      "descripcion": "Actividades de esparcimiento ncp"
+    },
+    {
+      "codigo": "94110",
+      "descripcion": "Actividades de organizaciones empresariales y de empleadores"
+    },
+    {
+      "codigo": "94120",
+      "descripcion": "Actividades de organizaciones profesionales"
+    },
+    {
+      "codigo": "94200",
+      "descripcion": "Actividades de sindicatos"
+    },
+    {
+      "codigo": "94910",
+      "descripcion": "Actividades de organizaciones religiosas"
+    },
+    {
+      "codigo": "94920",
+      "descripcion": "Actividades de organizaciones políticas"
+    },
+    {
+      "codigo": "94990",
+      "descripcion": "Actividades de asociaciones n.c.p."
+    },
+    {
+      "codigo": "95110",
+      "descripcion": "Reparación de computadoras y equipo periférico"
+    },
+    {
+      "codigo": "95120",
+      "descripcion": "Reparación de equipo de comunicación"
+    },
+    {
+      "codigo": "95210",
+      "descripcion": "Reparación de aparatos electrónicos de consumo"
+    },
+    {
+      "codigo": "95220",
+      "descripcion": "Reparación de aparatos doméstico y equipo de hogar y jardín"
+    },
+    {
+      "codigo": "95230",
+      "descripcion": "Reparación de calzado y artículos de cuero"
+    },
+    {
+      "codigo": "95240",
+      "descripcion": "Reparación de muebles y accesorios para el hogar"
+    },
+    {
+      "codigo": "95291",
+      "descripcion": "Reparación de Instrumentos musicales"
+    },
+    {
+      "codigo": "95292",
+      "descripcion": "Servicios de cerrajería y copiado de llaves"
+    },
+    {
+      "codigo": "95293",
+      "descripcion": "Reparación de joyas y relojes"
+    },
+    {
+      "codigo": "95294",
+      "descripcion": "Reparación de bicicletas, sillas de ruedas y rodados n.c.p."
+    },
+    {
+      "codigo": "95299",
+      "descripcion": "Reparaciones de enseres personales n.c.p."
+    },
+    {
+      "codigo": "96010",
+      "descripcion": "Lavado y limpieza de prendas de tela y de piel, incluso la limpieza en seco"
+    },
+    {
+      "codigo": "96020",
+      "descripcion": "Peluquería y otros tratamientos de belleza"
+    },
+    {
+      "codigo": "96030",
+      "descripcion": "Pompas fúnebres y actividades conexas"
+    },
+    {
+      "codigo": "96091",
+      "descripcion": "Servicios de sauna y otros servicios para la estética corporal n.c.p."
+    },
+    {
+      "codigo": "96092",
+      "descripcion": "Servicios n.c.p."
+    },
+    {
+      "codigo": "97000",
+      "descripcion": "Actividad de los hogares en calidad de empleadores de personal doméstico"
+    },
+    {
+      "codigo": "98100",
+      "descripcion": "Actividades indiferenciadas de producción de bienes de los hogares privados para uso propio"
+    },
+    {
+      "codigo": "98200",
+      "descripcion": "Actividades indiferenciadas de producción de servicios de los hogares privados para uso propio"
+    },
+    {
+      "codigo": "99000",
+      "descripcion": "Actividades de organizaciones y órganos extraterritoriales"
+    },
+    {
+      "codigo": "10001",
+      "descripcion": "Empleados"
+    },
+    {
+      "codigo": "10002",
+      "descripcion": "Pensionado"
+    },
+    {
+      "codigo": "10003",
+      "descripcion": "Estudiante"
+    },
+    {
+      "codigo": "10004",
+      "descripcion": "Desempleado"
+    },
+    {
+      "codigo": "10005",
+      "descripcion": "Otros"
+    },
+    {
+      "codigo": "10006",
+      "descripcion": "Comerciante"
+    }
+  ],
+  "020": [],
+  "021": [
+    {
+      "codigo": "01",
+      "descripcion": "Emisor"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Receptor"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Médico (solo aplica para contribuyentes obligados a la presentación de F-958)"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Transporte (solo aplica para Factura de exportación)"
+    }
+  ],
+  "022": [
+    {
+      "codigo": "36",
+      "descripcion": "NIT"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "DUI"
+    },
+    {
+      "codigo": "37",
+      "descripcion": "Otro"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Pasaporte"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Carnet de Residente"
+    }
+  ],
+  "023": [
+    {
+      "codigo": "02",
+      "descripcion": "Factura de venta simplificada"
+    },
+    {
+      "codigo": "97",
+      "descripcion": "Comprobantes de Control Interno"
+    }
+  ],
+  "024": [
+    {
+      "codigo": "01",
+      "descripcion": "Error en la Información del Documento Tributario Electrónico a invalidar."
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Rescindir de la operación realizada."
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Otro"
+    }
+  ],
+  "025": [
+    {
+      "codigo": "01",
+      "descripcion": "Depósito"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Propiedad"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Consignación"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Traslado"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "Otros"
+    }
+  ],
+  "026": [
+    {
+      "codigo": "01",
+      "descripcion": "Efectivo"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Bien"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Servicio"
+    }
+  ],
+  "027": [
+    {
+      "codigo": "01",
+      "descripcion": "Terrestre San Bartolo"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Marítima de Acajutla"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Aérea De Comalapa"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Terrestre Las Chinamas"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "Terrestre La Hachadura"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "Terrestre Santa Ana"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "Terrestre San Cristóbal"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "Terrestre Anguiatú"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "Terrestre El Amatillo"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "Marítima La Unión"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "Terrestre El Poy"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "Terrestre Metalío"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "Fardos Postales"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "Z.F. San Marcos"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "Z.F. El Pedregal"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "Z.F. San Bartolo"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "Z.F. Exportsalva"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "Z.F. American Park"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "Z.F. Internacional"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "Z.F. Diez"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "Z.F. Miramar"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "Z.F. Santo Tomas"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "Z.F. Santa Tecla"
+    },
+    {
+      "codigo": "29",
+      "descripcion": "Z.F. Santa Ana"
+    },
+    {
+      "codigo": "30",
+      "descripcion": "Z.F. La Concordia"
+    },
+    {
+      "codigo": "31",
+      "descripcion": "Aérea Ilopango"
+    },
+    {
+      "codigo": "32",
+      "descripcion": "Z.F. Pipil"
+    },
+    {
+      "codigo": "33",
+      "descripcion": "Puerto Barillas"
+    },
+    {
+      "codigo": "34",
+      "descripcion": "Z.F. Calvo Conservas"
+    },
+    {
+      "codigo": "35",
+      "descripcion": "Feria Internacional"
+    },
+    {
+      "codigo": "36",
+      "descripcion": "Aduana El Papalón"
+    },
+    {
+      "codigo": "37",
+      "descripcion": "Z.F. Sam-Li"
+    },
+    {
+      "codigo": "38",
+      "descripcion": "Z.F. San José"
+    },
+    {
+      "codigo": "39",
+      "descripcion": "Z.F. Las Mercedes"
+    },
+    {
+      "codigo": "40",
+      "descripcion": "Z.F. EMCO"
+    },
+    {
+      "codigo": "41",
+      "descripcion": "Z.F. Gigante"
+    },
+    {
+      "codigo": "42",
+      "descripcion": "Z.F. NOVABES"
+    },
+    {
+      "codigo": "43",
+      "descripcion": "Z.F. INHDELVA"
+    },
+    {
+      "codigo": "71",
+      "descripcion": "Aldesa"
+    },
+    {
+      "codigo": "72",
+      "descripcion": "Agdosa Merliot"
+    },
+    {
+      "codigo": "73",
+      "descripcion": "Bodesa"
+    },
+    {
+      "codigo": "76",
+      "descripcion": "Delegacion DHL"
+    },
+    {
+      "codigo": "77",
+      "descripcion": "Transauto"
+    },
+    {
+      "codigo": "80",
+      "descripcion": "Nejapa"
+    },
+    {
+      "codigo": "81",
+      "descripcion": "Almaconsa"
+    },
+    {
+      "codigo": "83",
+      "descripcion": "Agdosa Apopa"
+    },
+    {
+      "codigo": "85",
+      "descripcion": "Gutiérrez Courier Y Cargo"
+    },
+    {
+      "codigo": "99",
+      "descripcion": "San Bartolo Envío Hn/Gt"
+    }
+  ],
+  "028": [],
+  "029": [
+    {
+      "codigo": "01",
+      "descripcion": "Persona Natural"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Persona Jurídica"
+    }
+  ],
+  "030": [
+    {
+      "codigo": "01",
+      "descripcion": "TERRESTRE"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "AÉREO"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "MARÍTIMO"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "FERREO"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "MULTIMODAL"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "CORREO"
+    }
+  ],
+  "031": [
+    {
+      "codigo": "01",
+      "descripcion": "EXW-En fabrica"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "FCA-Libre transportista"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CPT-Transporte pagado hasta"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CIP-Transporte y seguro pagado hasta"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "DAP-Entrega en el lugar"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "DPU-Entregado en el lugar descargado"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "DDP-Entrega con impuestos pagados"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "FAS-Libre al costado del buque"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "FOB-Libre a bordo"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "CFR-Costo y flete"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "CIF- Costo seguro y flete"
+    }
+  ],
+  "032": [
+    {
+      "codigo": "01",
+      "descripcion": "Domiciliado"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "No Domiciliado"
+    }
+  ],
+  "033": [],
+  "departamentos": [
+    {
+      "codigo": "01",
+      "descripcion": "Ahuachapán"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "Santa Ana"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "Sonsonate"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "Chalatenango"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "La Libertad"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "San Salvador"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "Cuscatlán"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "La Paz"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "Cabañas"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "San Vicente"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "Usulután"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "San Miguel"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "Morazán"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "La Unión"
+    }
+  ],
+  "municipios": [
+    {
+      "codigo": "13",
+      "descripcion": "AHUACHAPAN NORTE",
+      "departamento": "01"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "AHUACHAPAN CENTRO",
+      "departamento": "01"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "AHUACHAPAN SUR",
+      "departamento": "01"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SANTA ANA NORTE",
+      "departamento": "02"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SANTA ANA CENTRO",
+      "departamento": "02"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SANTA ANA ESTE",
+      "departamento": "02"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SANTA ANA OESTE",
+      "departamento": "02"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SONSONATE NORTE",
+      "departamento": "03"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SONSONATE CENTRO",
+      "departamento": "03"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SONSONATE ESTE",
+      "departamento": "03"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SONSONATE OESTE",
+      "departamento": "03"
+    },
+    {
+      "codigo": "34",
+      "descripcion": "CHALATENANGO NORTE",
+      "departamento": "04"
+    },
+    {
+      "codigo": "35",
+      "descripcion": "CHALATENANGO CENTRO",
+      "departamento": "04"
+    },
+    {
+      "codigo": "36",
+      "descripcion": "CHALATENANGO SUR",
+      "departamento": "04"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "LA LIBERTAD NORTE",
+      "departamento": "05"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "LA LIBERTAD CENTRO",
+      "departamento": "05"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "LA LIBERTAD OESTE",
+      "departamento": "05"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "LA LIBERTAD ESTE",
+      "departamento": "05"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "LA LIBERTAD COSTA",
+      "departamento": "05"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "LA LIBERTAD SUR",
+      "departamento": "05"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SAN SALVADOR NORTE",
+      "departamento": "06"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN SALVADOR OESTE",
+      "departamento": "06"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SAN SALVADOR ESTE",
+      "departamento": "06"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SAN SALVADOR CENTRO",
+      "departamento": "06"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "SAN SALVADOR SUR",
+      "departamento": "06"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "CUSCATLAN NORTE",
+      "departamento": "07"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "CUSCATLAN SUR",
+      "departamento": "07"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "LA PAZ OESTE",
+      "departamento": "08"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "LA PAZ CENTRO",
+      "departamento": "08"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "LA PAZ ESTE",
+      "departamento": "08"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "CABAÑAS ESTE",
+      "departamento": "09"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "CABAÑAS OESTE",
+      "departamento": "09"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN VICENTE NORTE",
+      "departamento": "10"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN VICENTE SUR",
+      "departamento": "10"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "USULUTAN NORTE",
+      "departamento": "11"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "USULUTAN ESTE",
+      "departamento": "11"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "USULUTAN OESTE",
+      "departamento": "11"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN MIGUEL NORTE",
+      "departamento": "12"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SAN MIGUEL CENTRO",
+      "departamento": "12"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SAN MIGUEL OESTE",
+      "departamento": "12"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "MORAZAN NORTE",
+      "departamento": "13"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "MORAZAN SUR",
+      "departamento": "13"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "LA UNION NORTE",
+      "departamento": "14"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "LA UNION SUR",
+      "departamento": "14"
+    }
+  ],
+  "distritos": [
+    {
+      "codigo": "01",
+      "descripcion": "AHUACHAPÁN",
+      "departamento": "01",
+      "municipio": "14"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "APANECA",
+      "departamento": "01",
+      "municipio": "14"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "ATIQUIZAYA",
+      "departamento": "01",
+      "municipio": "13"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CONCEPCIÓN DE ATACO",
+      "departamento": "01",
+      "municipio": "14"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL REFUGIO",
+      "departamento": "01",
+      "municipio": "13"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "GUAYMANGO",
+      "departamento": "01",
+      "municipio": "15"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "JUJUTLA",
+      "departamento": "01",
+      "municipio": "15"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN FRANCISCO MENÉNDEZ",
+      "departamento": "01",
+      "municipio": "15"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN LORENZO",
+      "departamento": "01",
+      "municipio": "13"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN PEDRO PUXTLA",
+      "departamento": "01",
+      "municipio": "15"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "TACUBA",
+      "departamento": "01",
+      "municipio": "14"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "TURÍN",
+      "departamento": "01",
+      "municipio": "13"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CANDELARIA DE LA FRONTERA",
+      "departamento": "02",
+      "municipio": "17"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "COATEPEQUE",
+      "departamento": "02",
+      "municipio": "16"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CHALCHUAPA",
+      "departamento": "02",
+      "municipio": "17"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "EL CONGO",
+      "departamento": "02",
+      "municipio": "16"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL PORVENIR",
+      "departamento": "02",
+      "municipio": "17"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "MASAHUAT",
+      "departamento": "02",
+      "municipio": "14"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "METAPÁN",
+      "departamento": "02",
+      "municipio": "14"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN ANTONIO PAJONAL",
+      "departamento": "02",
+      "municipio": "17"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN SEBASTIÁN SALITRILLO",
+      "departamento": "02",
+      "municipio": "17"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SANTA ANA",
+      "departamento": "02",
+      "municipio": "15"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "STA ROSA GUACHI",
+      "departamento": "02",
+      "municipio": "14"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "STGO D LA FRONT",
+      "departamento": "02",
+      "municipio": "17"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "TEXISTEPEQUE",
+      "departamento": "02",
+      "municipio": "14"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ACAJUTLA",
+      "departamento": "03",
+      "municipio": "20"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "ARMENIA",
+      "departamento": "03",
+      "municipio": "19"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CALUCO",
+      "departamento": "03",
+      "municipio": "19"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CUISNAHUAT",
+      "departamento": "03",
+      "municipio": "19"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "STA I ISHUATAN",
+      "departamento": "03",
+      "municipio": "19"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "IZALCO",
+      "departamento": "03",
+      "municipio": "19"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "JUAYÚA",
+      "departamento": "03",
+      "municipio": "17"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "NAHUIZALCO",
+      "departamento": "03",
+      "municipio": "17"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "NAHULINGO",
+      "departamento": "03",
+      "municipio": "18"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SALCOATITÁN",
+      "departamento": "03",
+      "municipio": "17"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SAN ANTONIO DEL MONTE",
+      "departamento": "03",
+      "municipio": "18"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN JULIÁN",
+      "departamento": "03",
+      "municipio": "19"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "STA C MASAHUAT",
+      "departamento": "03",
+      "municipio": "17"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SANTO DOMINGO GUZMÁN",
+      "departamento": "03",
+      "municipio": "18"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SONSONATE",
+      "departamento": "03",
+      "municipio": "18"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SONZACATE",
+      "departamento": "03",
+      "municipio": "18"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "AGUA CALIENTE",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "ARCATAO",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "AZACUALPA",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CITALÁ",
+      "departamento": "04",
+      "municipio": "34"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "COMALAPA",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "CONCEPCIÓN QUEZALTEPEQUE",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "CHALATENANGO",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "DULCE NOM MARÍA",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "EL CARRIZAL",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "EL PARAÍSO",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "LA LAGUNA",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "LA PALMA",
+      "departamento": "04",
+      "municipio": "34"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "LA REINA",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "LAS VUELTAS",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "NOMBRE DE JESUS",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "NVA CONCEPCIÓN",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "NUEVA TRINIDAD",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "OJOS DE AGUA",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "POTONICO",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SAN ANT LA CRUZ",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN ANT RANCHOS",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SAN FERNANDO",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SAN FRANCISCO LEMPA",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "SAN FRANCISCO MORAZÁN",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "SAN IGNACIO",
+      "departamento": "04",
+      "municipio": "34"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "SAN I LABRADOR",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "27",
+      "descripcion": "SAN J CANCASQUE",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "28",
+      "descripcion": "SAN JOSE FLORES",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "29",
+      "descripcion": "SAN LUIS CARMEN",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "30",
+      "descripcion": "SN MIG MERCEDES",
+      "departamento": "04",
+      "municipio": "36"
+    },
+    {
+      "codigo": "31",
+      "descripcion": "SAN RAFAEL",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "32",
+      "descripcion": "SANTA RITA",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "33",
+      "descripcion": "TEJUTLA",
+      "departamento": "04",
+      "municipio": "35"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ANTGO CUSCATLÁN",
+      "departamento": "05",
+      "municipio": "26"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "CIUDAD ARCE",
+      "departamento": "05",
+      "municipio": "24"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "COLON",
+      "departamento": "05",
+      "municipio": "25"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "COMASAGUA",
+      "departamento": "05",
+      "municipio": "28"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "CHILTIUPAN",
+      "departamento": "05",
+      "municipio": "27"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "HUIZÚCAR",
+      "departamento": "05",
+      "municipio": "26"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "JAYAQUE",
+      "departamento": "05",
+      "municipio": "25"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "JICALAPA",
+      "departamento": "05",
+      "municipio": "27"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "LA LIBERTAD",
+      "departamento": "05",
+      "municipio": "27"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "NUEVO CUSCATLÁN",
+      "departamento": "05",
+      "municipio": "26"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SANTA TECLA",
+      "departamento": "05",
+      "municipio": "28"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "QUEZALTEPEQUE",
+      "departamento": "05",
+      "municipio": "23"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SACACOYO",
+      "departamento": "05",
+      "municipio": "25"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SN J VILLANUEVA",
+      "departamento": "05",
+      "municipio": "26"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN JUAN OPICO",
+      "departamento": "05",
+      "municipio": "24"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SAN MATÍAS",
+      "departamento": "05",
+      "municipio": "23"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN P TACACHICO",
+      "departamento": "05",
+      "municipio": "23"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "TAMANIQUE",
+      "departamento": "05",
+      "municipio": "27"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "TALNIQUE",
+      "departamento": "05",
+      "municipio": "25"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "TEOTEPEQUE",
+      "departamento": "05",
+      "municipio": "27"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "TEPECOYO",
+      "departamento": "05",
+      "municipio": "25"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "ZARAGOZA",
+      "departamento": "05",
+      "municipio": "26"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "AGUILARES",
+      "departamento": "06",
+      "municipio": "20"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "APOPA",
+      "departamento": "06",
+      "municipio": "21"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "AYUTUXTEPEQUE",
+      "departamento": "06",
+      "municipio": "23"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CUSCATANCINGO",
+      "departamento": "06",
+      "municipio": "23"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL PAISNAL",
+      "departamento": "06",
+      "municipio": "20"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "GUAZAPA",
+      "departamento": "06",
+      "municipio": "20"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "ILOPANGO",
+      "departamento": "06",
+      "municipio": "22"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "MEJICANOS",
+      "departamento": "06",
+      "municipio": "23"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "NEJAPA",
+      "departamento": "06",
+      "municipio": "21"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "PANCHIMALCO",
+      "departamento": "06",
+      "municipio": "24"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "ROSARIO DE MORA",
+      "departamento": "06",
+      "municipio": "24"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN MARCOS",
+      "departamento": "06",
+      "municipio": "24"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SAN MARTIN",
+      "departamento": "06",
+      "municipio": "22"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN SALVADOR",
+      "departamento": "06",
+      "municipio": "23"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "STG TEXACUANGOS",
+      "departamento": "06",
+      "municipio": "24"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SANTO TOMAS",
+      "departamento": "06",
+      "municipio": "24"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SOYAPANGO",
+      "departamento": "06",
+      "municipio": "22"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "TONACATEPEQUE",
+      "departamento": "06",
+      "municipio": "22"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "CIUDAD DELGADO",
+      "departamento": "06",
+      "municipio": "23"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CANDELARIA",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "COJUTEPEQUE",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "EL CARMEN",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "EL ROSARIO",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "MONTE SAN JUAN",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "ORAT CONCEPCIÓN",
+      "departamento": "07",
+      "municipio": "17"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "SAN B PERULAPIA",
+      "departamento": "07",
+      "municipio": "17"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN CRISTÓBAL",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN J GUAYABAL",
+      "departamento": "07",
+      "municipio": "17"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN P PERULAPÁN",
+      "departamento": "07",
+      "municipio": "17"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SAN RAF CEDROS",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN RAMON",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "STA C ANALQUITO",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "STA C MICHAPA",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SUCHITOTO",
+      "departamento": "07",
+      "municipio": "17"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "TENANCINGO",
+      "departamento": "07",
+      "municipio": "18"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CUYULTITÁN",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "EL ROSARIO",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "JERUSALÉN",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "MERCED LA CEIBA",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "OLOCUILTA",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "PARAÍSO OSORIO",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "SN ANT MASAHUAT",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN EMIGDIO",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SN FCO CHINAMEC",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN J NONUALCO",
+      "departamento": "08",
+      "municipio": "25"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "SAN JUAN TALPA",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "SAN JUAN TEPEZONTES",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SAN LUIS TALPA",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN MIGUEL TEPEZONTES",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN PEDRO MASAHUAT",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SAN PEDRO NONUALCO",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN R OBRAJUELO",
+      "departamento": "08",
+      "municipio": "25"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "STA MA OSTUMA",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "STGO NONUALCO",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "TAPALHUACA",
+      "departamento": "08",
+      "municipio": "23"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "ZACATECOLUCA",
+      "departamento": "08",
+      "municipio": "25"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SN LUIS LA HERR",
+      "departamento": "08",
+      "municipio": "24"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CINQUERA",
+      "departamento": "09",
+      "municipio": "11"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "GUACOTECTI",
+      "departamento": "09",
+      "municipio": "10"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "ILOBASCO",
+      "departamento": "09",
+      "municipio": "11"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "JUTIAPA",
+      "departamento": "09",
+      "municipio": "11"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "SAN ISIDRO",
+      "departamento": "09",
+      "municipio": "10"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "SENSUNTEPEQUE",
+      "departamento": "09",
+      "municipio": "10"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "TEJUTEPEQUE",
+      "departamento": "09",
+      "municipio": "11"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "VICTORIA",
+      "departamento": "09",
+      "municipio": "10"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "DOLORES",
+      "departamento": "09",
+      "municipio": "10"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "APASTEPEQUE",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "GUADALUPE",
+      "departamento": "10",
+      "municipio": "15"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "SAN CAY ISTEPEQ",
+      "departamento": "10",
+      "municipio": "15"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "SANTA CLARA",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "SANTO DOMINGO",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "SN EST CATARINA",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "SAN ILDEFONSO",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "SAN LORENZO",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "SAN SEBASTIÁN",
+      "departamento": "10",
+      "municipio": "14"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "SAN VICENTE",
+      "departamento": "10",
+      "municipio": "15"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "TECOLUCA",
+      "departamento": "10",
+      "municipio": "15"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "TEPETITÁN",
+      "departamento": "10",
+      "municipio": "15"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "VERAPAZ",
+      "departamento": "10",
+      "municipio": "15"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ALEGRÍA",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "BERLÍN",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CALIFORNIA",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CONCEP BATRES",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL TRIUNFO",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "EREGUAYQUÍN",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "ESTANZUELAS",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "JIQUILISCO",
+      "departamento": "11",
+      "municipio": "26"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "JUCUAPA",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "JUCUARÁN",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "MERCEDES UMAÑA",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "NUEVA GRANADA",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "OZATLÁN",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "PTO EL TRIUNFO",
+      "departamento": "11",
+      "municipio": "26"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN AGUSTÍN",
+      "departamento": "11",
+      "municipio": "26"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SN BUENAVENTURA",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN DIONISIO",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SANTA ELENA",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SAN FCO JAVIER",
+      "departamento": "11",
+      "municipio": "26"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SANTA MARÍA",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "STGO DE MARÍA",
+      "departamento": "11",
+      "municipio": "24"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "TECAPÁN",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "USULUTÁN",
+      "departamento": "11",
+      "municipio": "25"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "CAROLINA",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "CIUDAD BARRIOS",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "COMACARÁN",
+      "departamento": "12",
+      "municipio": "22"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CHAPELTIQUE",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "CHINAMECA",
+      "departamento": "12",
+      "municipio": "23"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "CHIRILAGUA",
+      "departamento": "12",
+      "municipio": "22"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "EL TRANSITO",
+      "departamento": "12",
+      "municipio": "23"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "LOLOTIQUE",
+      "departamento": "12",
+      "municipio": "23"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "MONCAGUA",
+      "departamento": "12",
+      "municipio": "22"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "NUEVA GUADALUPE",
+      "departamento": "12",
+      "municipio": "23"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "NVO EDÉN S JUAN",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "QUELEPA",
+      "departamento": "12",
+      "municipio": "22"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "SAN ANT D MOSCO",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN GERARDO",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN JORGE",
+      "departamento": "12",
+      "municipio": "23"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SAN LUIS REINA",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN MIGUEL",
+      "departamento": "12",
+      "municipio": "22"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SAN RAF ORIENTE",
+      "departamento": "12",
+      "municipio": "23"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SESORI",
+      "departamento": "12",
+      "municipio": "21"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "ULUAZAPA",
+      "departamento": "12",
+      "municipio": "22"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ARAMBALA",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "CACAOPERA",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CORINTO",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CHILANGA",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "DELIC DE CONCEP",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "EL DIVISADERO",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "EL ROSARIO",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "GUALOCOCTI",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "GUATAJIAGUA",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "JOATECA",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "JOCOAITIQUE",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "JOCORO",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "LOLOTIQUILLO",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "MEANGUERA",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "OSICALA",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "PERQUÍN",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "SAN CARLOS",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "SAN FERNANDO",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "19",
+      "descripcion": "SAN FCO GOTERA",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "20",
+      "descripcion": "SAN ISIDRO",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "21",
+      "descripcion": "SAN SIMÓN",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "22",
+      "descripcion": "SENSEMBRA",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "23",
+      "descripcion": "SOCIEDAD",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "24",
+      "descripcion": "TOROLA",
+      "departamento": "13",
+      "municipio": "27"
+    },
+    {
+      "codigo": "25",
+      "descripcion": "YAMABAL",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "26",
+      "descripcion": "YOLOAIQUÍN",
+      "departamento": "13",
+      "municipio": "28"
+    },
+    {
+      "codigo": "01",
+      "descripcion": "ANAMOROS",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "02",
+      "descripcion": "BOLÍVAR",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "03",
+      "descripcion": "CONCEP DE OTE",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "04",
+      "descripcion": "CONCHAGUA",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "05",
+      "descripcion": "EL CARMEN",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "06",
+      "descripcion": "EL SAUCE",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "07",
+      "descripcion": "INTIPUCÁ",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "08",
+      "descripcion": "LA UNIÓN",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "09",
+      "descripcion": "LISLIQUE",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "10",
+      "descripcion": "MEANG DEL GOLFO",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "11",
+      "descripcion": "NUEVA ESPARTA",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "12",
+      "descripcion": "PASAQUINA",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "13",
+      "descripcion": "POLORÓS",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "14",
+      "descripcion": "SAN ALEJO",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "15",
+      "descripcion": "SAN JOSE",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "16",
+      "descripcion": "SANTA ROSA LIMA",
+      "departamento": "14",
+      "municipio": "19"
+    },
+    {
+      "codigo": "17",
+      "descripcion": "YAYANTIQUE",
+      "departamento": "14",
+      "municipio": "20"
+    },
+    {
+      "codigo": "18",
+      "descripcion": "YUCUAIQUÍN",
+      "departamento": "14",
+      "municipio": "20"
+    }
+  ]
+}

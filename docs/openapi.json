@@ -1,0 +1,1512 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "REDENT Local — API de pruebas",
+    "version": "0.9.0",
+    "description": "Inventario de rutas. Solo ambiente MH 00. Lea API.md y los límites de LEEME-PRIMERO.md."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080"
+    }
+  ],
+  "paths": {
+    "/api/csrf": {
+      "get": {
+        "summary": "Obtener CSRF",
+        "operationId": "get_api_csrf",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": []
+      }
+    },
+    "/login": {
+      "post": {
+        "summary": "Iniciar sesión",
+        "operationId": "post_login",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "username",
+                  "password"
+                ],
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string",
+                    "format": "password"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/logout": {
+      "post": {
+        "summary": "Cerrar sesión",
+        "operationId": "post_logout",
+        "responses": {
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          },
+          "204": {
+            "description": "Sesión cerrada"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/me": {
+      "get": {
+        "summary": "Identidad y configuración",
+        "operationId": "get_api_me",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/dashboard": {
+      "get": {
+        "summary": "Resumen",
+        "operationId": "get_api_dashboard",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/empresa": {
+      "get": {
+        "summary": "Leer emisor",
+        "operationId": "get_api_empresa",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      },
+      "put": {
+        "summary": "Configurar emisor (ADMIN)",
+        "operationId": "put_api_empresa",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/catalogos/{kind}": {
+      "get": {
+        "summary": "Listar catálogo",
+        "operationId": "get_api_catalogos_kind",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            }
+          },
+          {
+            "name": "q",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      },
+      "post": {
+        "summary": "Crear registro",
+        "operationId": "post_api_catalogos_kind",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/catalogos/{kind}/{id}": {
+      "put": {
+        "summary": "Editar con revisión",
+        "operationId": "put_api_catalogos_kind_id",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/importar/{kind}/preview": {
+      "post": {
+        "summary": "Revisar Excel multipart file",
+        "operationId": "post_api_importar_kind_preview",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "file"
+                ],
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/importar/{kind}/confirmar": {
+      "post": {
+        "summary": "Importar filas atómicamente",
+        "operationId": "post_api_importar_kind_confirmar",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "kind",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/documentos": {
+      "get": {
+        "summary": "Listar documentos",
+        "operationId": "get_api_documentos",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      },
+      "post": {
+        "summary": "Crear borrador con Idempotency-Key",
+        "operationId": "post_api_documentos",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 8,
+              "maxLength": 100
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/documentos/{id}": {
+      "get": {
+        "summary": "Leer documento",
+        "operationId": "get_api_documentos_id",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      },
+      "put": {
+        "summary": "Editar borrador con revisión",
+        "operationId": "put_api_documentos_id",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "revision",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/documentos/{id}/preview": {
+      "get": {
+        "summary": "Vista previa validada",
+        "operationId": "get_api_documentos_id_preview",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/preparar": {
+      "post": {
+        "summary": "Congelar documento y asignar serie",
+        "operationId": "post_api_documentos_id_preparar",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/transmitir": {
+      "post": {
+        "summary": "Transmitir a MH pruebas",
+        "operationId": "post_api_documentos_id_transmitir",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/consultar": {
+      "post": {
+        "summary": "Consultar DTE en MH",
+        "operationId": "post_api_documentos_id_consultar",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/correo": {
+      "post": {
+        "summary": "Enviar correo al receptor",
+        "operationId": "post_api_documentos_id_correo",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/pdf": {
+      "get": {
+        "summary": "Representación PDF",
+        "operationId": "get_api_documentos_id_pdf",
+        "responses": {
+          "200": {
+            "description": "PDF",
+            "content": {
+              "application/pdf": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/archivos": {
+      "get": {
+        "summary": "Descargar ZIP",
+        "operationId": "get_api_documentos_id_archivos",
+        "responses": {
+          "200": {
+            "description": "ZIP",
+            "content": {
+              "application/zip": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/documentos/{id}/intentos": {
+      "get": {
+        "summary": "Historial transmisión",
+        "operationId": "get_api_documentos_id_intentos",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/esquemas": {
+      "get": {
+        "summary": "Versiones de esquemas",
+        "operationId": "get_api_esquemas",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/esquemas/{type}": {
+      "get": {
+        "summary": "Esquema oficial",
+        "operationId": "get_api_esquemas_type",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    },
+    "/api/validar/{type}": {
+      "post": {
+        "summary": "Validar JSON sin persistir",
+        "operationId": "post_api_validar_type",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "type",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/usuarios": {
+      "get": {
+        "summary": "Listar usuarios ADMIN",
+        "operationId": "get_api_usuarios",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      },
+      "post": {
+        "summary": "Crear usuario ADMIN",
+        "operationId": "post_api_usuarios",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/password": {
+      "post": {
+        "summary": "Cambiar clave propia",
+        "operationId": "post_api_password",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "X-CSRF-TOKEN",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos y ejemplos en API.md. El contrato de entrada detallado está en los servicios y los esquemas MH disponibles por GET /api/esquemas/{type}.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/auditoria": {
+      "get": {
+        "summary": "Listar auditoría ADMIN",
+        "operationId": "get_api_auditoria",
+        "responses": {
+          "200": {
+            "description": "Resultado de la operación; ver API.md"
+          },
+          "400": {
+            "description": "Solicitud inválida"
+          },
+          "401": {
+            "description": "Sesión requerida"
+          },
+          "403": {
+            "description": "CSRF o permiso insuficiente"
+          },
+          "409": {
+            "description": "Conflicto o integración no habilitada"
+          },
+          "422": {
+            "description": "Errores de esquema MH"
+          }
+        },
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "default": 0
+            }
+          }
+        ],
+        "security": [
+          {
+            "session": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "session": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "JSESSIONID"
+      }
+    }
+  }
+}

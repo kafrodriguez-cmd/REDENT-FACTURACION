@@ -1,0 +1,226 @@
+{
+  "info": {
+    "name": "REDENT Local 0.9 — PRUEBAS",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Complete sus variables localmente. No exporte contraseñas. requestKey debe ser una UUID estable por operación; cámbiela para una venta diferente."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    },
+    {
+      "key": "usuario",
+      "value": "admin"
+    },
+    {
+      "key": "password",
+      "value": ""
+    },
+    {
+      "key": "csrf",
+      "value": ""
+    },
+    {
+      "key": "documentoId",
+      "value": ""
+    },
+    {
+      "key": "requestKey",
+      "value": "CAMBIE-POR-UNA-UUID-POR-OPERACION"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. CSRF antes de login",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/csrf"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.collectionVariables.set('csrf', pm.response.json().token);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Login (cookie jar habilitado)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-CSRF-TOKEN",
+            "value": "{{csrf}}"
+          }
+        ],
+        "url": "{{baseUrl}}/login",
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "username",
+              "value": "{{usuario}}",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "{{password}}",
+              "type": "text"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "3. Renovar CSRF después del login",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/csrf"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.collectionVariables.set('csrf', pm.response.json().token);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Mi cuenta",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/me"
+      }
+    },
+    {
+      "name": "5. Empresa",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/empresa"
+      }
+    },
+    {
+      "name": "6. Clientes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/catalogos/clientes"
+      }
+    },
+    {
+      "name": "7. Borrador de prueba (configure clienteId)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Idempotency-Key",
+            "value": "{{requestKey}}"
+          },
+          {
+            "key": "X-CSRF-TOKEN",
+            "value": "{{csrf}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/documentos",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"tipo\": \"01\",\n  \"clienteId\": 1,\n  \"condicionOperacion\": 1,\n  \"formaPago\": \"01\",\n  \"items\": [\n    {\n      \"codigo\": \"PRUEBA\",\n      \"descripcion\": \"Producto ficticio\",\n      \"cantidad\": \"1\",\n      \"precio\": \"10.00\",\n      \"descuento\": \"0.00\",\n      \"operacion\": \"GRAVADA\",\n      \"tipoItem\": 1,\n      \"uniMedida\": 59\n    }\n  ]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "if(pm.response.code===200) pm.collectionVariables.set('documentoId', pm.response.json().id);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "8. Revisar",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/documentos/{{documentoId}}/preview"
+      }
+    },
+    {
+      "name": "9. Preparar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-CSRF-TOKEN",
+            "value": "{{csrf}}"
+          }
+        ],
+        "url": "{{baseUrl}}/api/documentos/{{documentoId}}/preparar"
+      }
+    },
+    {
+      "name": "10. Transmitir SOLO con MH pruebas configurado",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-CSRF-TOKEN",
+            "value": "{{csrf}}"
+          }
+        ],
+        "url": "{{baseUrl}}/api/documentos/{{documentoId}}/transmitir"
+      }
+    },
+    {
+      "name": "11. Consultar estado",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-CSRF-TOKEN",
+            "value": "{{csrf}}"
+          }
+        ],
+        "url": "{{baseUrl}}/api/documentos/{{documentoId}}/consultar"
+      }
+    },
+    {
+      "name": "12. Cerrar sesión",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-CSRF-TOKEN",
+            "value": "{{csrf}}"
+          }
+        ],
+        "url": "{{baseUrl}}/logout"
+      }
+    }
+  ]
+}

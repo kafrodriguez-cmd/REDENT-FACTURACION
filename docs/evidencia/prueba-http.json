@@ -1,0 +1,6 @@
+{
+  "checks": 13,
+  "result": "PASS",
+  "mh_calls": 0,
+  "scope": "HTTP real sobre JAR y H2 en memoria"
+}

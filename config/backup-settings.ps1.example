@@ -1,0 +1,13 @@
+# Copie a backup-settings.ps1, configure un repositorio propio y restrinja NTFS.
+$env:PGHOST='127.0.0.1'
+$env:PGPORT='5432'
+$env:PGDATABASE='redent'
+$env:PGUSER='redent'
+# Archivo con una linea: 127.0.0.1:5432:redent:redent:CLAVE_REAL
+$env:PGPASSFILE='C:\REDENT\config\pgpass.conf'
+# Ejemplo de estructura, no es una cuenta ni un repositorio creado:
+$env:RESTIC_REPOSITORY='s3:https://ENDPOINT/BUCKET/redent'
+$env:RESTIC_PASSWORD_FILE='C:\REDENT\config\restic-password.txt'
+$env:AWS_ACCESS_KEY_ID=''
+$env:AWS_SECRET_ACCESS_KEY=''
+# Si usa SFTP u otro proveedor, sustituya las variables segun su configuracion oficial.

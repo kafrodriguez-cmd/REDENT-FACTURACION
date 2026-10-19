@@ -1,0 +1,25 @@
+# Copie a config/redent.properties. No contiene claves reales.
+# Demo sin este archivo: http://localhost:8080, accesible solo en este equipo.
+# Oficina: PostgreSQL + HTTPS. Configure certificado con scripts/configurar-tls.ps1.
+server.address=0.0.0.0
+server.port=8443
+server.ssl.enabled=true
+server.ssl.key-store=file:./config/redent.p12
+server.ssl.key-store-type=PKCS12
+server.ssl.key-store-password=${REDENT_TLS_PASSWORD}
+server.servlet.session.cookie.secure=true
+
+# PRUEBAS. Esta version NO permite ambiente productivo.
+redent.mh.ambiente=00
+redent.mh.enabled=${MH_ENABLED:false}
+redent.mh.base-url=https://apitest.dtes.mh.gob.sv
+redent.mh.signer-url=http://127.0.0.1:8113/firmardocumento/
+redent.mh.api-password=${MH_API_PASSWORD:}
+redent.mh.signer-password=${MH_SIGNER_PASSWORD:}
+
+# Active solo despues de configurar una cuenta SMTP de la empresa.
+redent.mail.enabled=false
+spring.mail.host=${SMTP_HOST:localhost}
+spring.mail.port=${SMTP_PORT:587}
+spring.mail.username=${SMTP_USER:}
+spring.mail.password=${SMTP_PASSWORD:}

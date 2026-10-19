@@ -1,0 +1,18 @@
+[
+  {
+    "name": "sv.redent.WorkflowTest",
+    "tests": "11",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "15.92"
+  },
+  {
+    "name": "sv.redent.DteBuilderTest",
+    "tests": "10",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "0.179"
+  }
+]

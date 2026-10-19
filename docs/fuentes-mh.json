@@ -1,0 +1,37 @@
+[
+  {
+    "file": "normativa.pdf",
+    "url": "https://factura.gob.sv/download/6-normativa-de-cumplimiento-de-los-documentos-tributarios-electronicos-contiene-los-lineamientos-generales-para-la-implementacion-de-facturacion-electronica/?wpdmdl=4728",
+    "sha256": "89b275140f8090d9641925ad3c66951e91318d357cda6d42a7451529ab840abf"
+  },
+  {
+    "file": "acceso_pruebas.pdf",
+    "url": "https://factura.gob.sv/download/7-manual-del-usuario-para-la-solicitud-de-ingreso-al-ambiente-para-pruebas-contiene-el-procedimiento-para-solicitar-ingreso-al-ambiente-para-pruebas/?wpdmdl=4729",
+    "sha256": "ec54d4b4ebb6bbc3b004c530fca53b019c2d21df34350a022c6c17542592dbb3"
+  },
+  {
+    "file": "schemas.zip",
+    "url": "https://factura.gob.sv/download/3-json-schemas-anexo-al-manual-tecnico-para-la-integracion-tecnologica-del-sistema-de-transmision-contiene-los-json-schemas-por-cada-tipo-de-dte-y-cada-tipo-de-evento-para-su-desarrollo-informatic/?wpdmdl=4399",
+    "sha256": "8587a7d679b22f875d1fb37be7a218c6b9ca499caa80a646e6894a4d6116ab64"
+  },
+  {
+    "file": "funcional.pdf",
+    "url": "https://factura.gob.sv/download/3-manual-funcional-del-sistema-de-transmision-amplia-la-aplicacion-de-las-estructuras-de-los-dte-y-los-eventos-asi-como-contiene-las-pruebas-minimas-requeridas/?wpdmdl=4726",
+    "sha256": "9b8e29f28ea6ba98be051654568f54ec65997868b0cc5036c9611e7a29bb51ec"
+  },
+  {
+    "file": "catalogos_actualizados.zip",
+    "url": "https://factura.gob.sv/download/catalogo-actualizado-del-sistema-de-facturacion-version-1-2/?wpdmdl=5353",
+    "sha256": "e86d7edc503d876564cd2bf9b251fb100f838199330c0c513048f4075669b2c6"
+  },
+  {
+    "file": "catalogos.pdf",
+    "url": "https://factura.gob.sv/download/2-catalogos-sistema-de-facturacion-contiene-el-detalle-de-todos-los-catalogos-requeridos-para-el-desarrollo-de-la-plataforma-de-transmision-de-documentos-tributarios-electronicos/?wpdmdl=4725",
+    "sha256": "aeb51e3983bb5ab9c6729c0944b5d88410018ee9b0e0af9f7d1b48ad3e013064"
+  },
+  {
+    "file": "tecnico.pdf",
+    "url": "https://factura.gob.sv/download/1-normativa-de-cumplimiento-de-los-dte-desarrolla-las-disposiciones-de-los-dte-contenidas-en-el-codigo-tributario-que-son-de-estricto-cumplimiento/?wpdmdl=4388",
+    "sha256": "fb98db437c6867db00149ce52ce0147a9e1c7a8f80ecd05325cf2ebc7cf7cbbb"
+  }
+]
